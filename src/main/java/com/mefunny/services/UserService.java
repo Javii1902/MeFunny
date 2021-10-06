@@ -1,8 +1,10 @@
-package com.mefunny.service;
+package com.mefunny.services;
 
 import com.mefunny.models.User;
 import com.mefunny.repositories.UserRepository;
+import org.springframework.stereotype.Service;
 
+@Service("userService")
 public class UserService {
 	private UserRepository userRepository;
 	

@@ -5,6 +5,8 @@ import java.sql.Connection;
 import javax.servlet.http.HttpSession;
 
 import com.mefunny.controllers.UserController;
+import com.mefunny.models.User;
+import com.mefunny.repositories.UserRepository;
 import com.mefunny.utils.HibernateSessionFactory;
 
 import io.javalin.Javalin;
@@ -29,11 +31,8 @@ public class Driver {
 			ctx.res.addHeader("Access-Control-Allow-Origin", "null");
 		});
 
-		//app.config.addStaticFiles("/Static", Location.CLASSPATH);
 
-		UserController userController = new UserController(app);
-		//MemeController memeController = new MemeController(app);
-
-		System.out.println("done");
+		UserRepository userRepo = new UserRepository();
+		userRepo.editPassword(2, "voitureMEANScarINfrench");
 	}
 }

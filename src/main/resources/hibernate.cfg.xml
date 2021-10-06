@@ -35,10 +35,10 @@
 		
 		validate: Hibernate will validate a pre-existing schema. This means that it will attempt to make sure that your Java models are
 		mapped in a way that is consistent with your existing schema.-->
-		<property name="hibernate.hbm2ddl.auto">create</property>
+		<property name="hibernate.hbm2ddl.auto">update</property>
 		
 		<!-- We have to tell Hibernate which models are annotated because it doesn't autodetect annotations. -->
-		<!-- <mapping class="com.mefunny.models.User"/> -->
+		<mapping class="com.mefunny.models.User"/>
 		<mapping class="com.mefunny.models.Meme"/>
 	</session-factory>
 </hibernate-configuration>

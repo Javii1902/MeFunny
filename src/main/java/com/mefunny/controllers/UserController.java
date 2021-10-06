@@ -1,7 +1,7 @@
 package com.mefunny.controllers;
 
 import com.mefunny.models.User;
-import com.mefunny.service.UserService;
+import com.mefunny.services.UserService;
 
 import static io.javalin.apibuilder.ApiBuilder.get;
 import static io.javalin.apibuilder.ApiBuilder.path;
