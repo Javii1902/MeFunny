@@ -4,7 +4,7 @@
     <head>
         <title>Login page</title>
         <meta charset="UTF-8" />
-        <link rel="stylesheet" href="Scripts/loginpage.css" />
+        <link rel="stylesheet" href="login.component.css" />
     </head>
     
     
@@ -17,7 +17,7 @@
 
       <h2>Please Login:</h2>
       <div id="submission">
-        <form id="login_form" method="POST" action="http://localhost:7000/employee/login">
+        <form id="login_form" method="POST" action="http://localhost:7000/user/login">
             <input type="text" placeholder="Username" required maxlength="20" name="username" id="user"/>
             <input type="text" placeholder="Password" required name="password" id = "pass"/>
             <input type="submit" value="Login" id = "submit" required/>
@@ -41,7 +41,7 @@
     <script>
     function setLogin() {
 	
-	let url = 'http://localhost:7000/employee/';
+	let url = 'http://localhost:7000/user/';
     
     url = url + document.getElementById("username").value;
     console.log(url);
