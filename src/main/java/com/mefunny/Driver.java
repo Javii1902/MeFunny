@@ -1,21 +1,10 @@
 package com.mefunny;
 
-import java.sql.Connection;
-
-import javax.servlet.http.HttpSession;
-
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
-import com.mefunny.controllers.UserController;
-import com.mefunny.models.User;
-import com.mefunny.repositories.UserRepository;
-import com.mefunny.utils.HibernateSessionFactory;
-//import com.revature.service.UserService;
+import com.mefunny.services.UserService;
 
-import io.javalin.Javalin;
-import io.javalin.http.Context;
-import io.javalin.http.staticfiles.Location;
 
 public class Driver {
 	public static void main(String[] args) {
@@ -41,7 +30,9 @@ public class Driver {
 		
 ApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
 		
-		//UserService userService = context.getBean("userService", UserService.class);
+		UserService userService = context.getBean("userService", UserService.class);
+		
+		System.out.println(userService.findAll());
 		
 	}
 }

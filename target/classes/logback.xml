@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration debug="true">
+
+<!-- Configuration for logging to a file. -->
+	<appender name="FILE" class="ch.qos.logback.core.FileAppender">
+		<file>logs/MeFunny.log</file>
+		<append>true</append>
+		<encoder>
+			<pattern>%-4relative [%thread] %-5level %logger{35} - %msg%n</pattern>
+		</encoder>
+	</appender>
+
+	<!-- Configuration for logging to the console. -->
+	<appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+	 <encoder>
+      <pattern>%-4relative [%thread] %-5level %logger{35} - %msg %n</pattern>
+    </encoder>
+	</appender>
+
+	<!-- This is optional, but I'll keep it here for reference since it can be useful to
+	create separate loggers under some circumstances. -->
+	<logger name="service_logger" level="info">
+		<appender-ref ref="FILE" />
+	</logger>
+
+	<!-- The root logger will be used to log all events, even those for external APIs/third party
+	libraries. -->
+	<root level="info">
+		<appender-ref ref="FILE" />
+	</root>
+</configuration>
