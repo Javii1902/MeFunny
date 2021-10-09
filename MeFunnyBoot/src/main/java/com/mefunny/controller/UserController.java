@@ -39,6 +39,11 @@ public class UserController {
 		return this.userService.findByUserName(userName);
 	}
 	
+	@GetMapping(path = "/userId/{userId}", produces = MediaType.APPLICATION_JSON_VALUE)
+	public User findByUserId(@PathVariable int userId) {
+		return this.userService.findByUserId(userId);
+	}
+	
 	@GetMapping(path = "/userNameV2", produces = MediaType.APPLICATION_JSON_VALUE)
 	public User findByUserNameV2(@RequestParam String userName) {
 		return this.userService.findByUserName(userName);

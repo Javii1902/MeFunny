@@ -30,6 +30,10 @@ public class UserService {
 		return this.userRepository.findByUserName(userName);
 	}
 	
+	public User findByUserId(int userId) {
+		return this.userRepository.findByUserId(userId);
+	}
+	
 	public User LogIn(String userName) {
 		return this.userRepository.findByUserName(userName);
 	}
