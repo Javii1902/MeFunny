@@ -12,7 +12,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.mefunny.model.Meme;
-import com.mefunny.model.User;
 import com.mefunny.service.MemeService;
 
 
