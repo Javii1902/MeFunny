@@ -14,7 +14,7 @@ public interface MemeRepository extends JpaRepository<Meme, Integer> {
 	
 	public <S extends Meme> S save(Meme meme);
 	
-	public Meme findByUserName(String userName);
+	public List<Meme> findByUserName(String userName);
 	
 	public Meme findByName(String name);
 	
