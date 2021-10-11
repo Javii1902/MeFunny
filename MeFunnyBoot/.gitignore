@@ -1,5 +1,3 @@
-/.metadata/
-@ -1,34 +1 @@
 HELP.md
 target/
 !.mvn/wrapper/maven-wrapper.jar
@@ -7,13 +5,13 @@ target/
 !**/src/test/**/target/
 
 ### STS ###
-MeFunnyBoot/.apt_generated
-MeFunnyBoot/.classpath
-MeFunnyBoot/.factorypath
-MeFunnyBoot/.project
-MeFunnyBoot/.settings
-MeFunnyBoot/.springBeans
-MeFunnyBoot/.sts4-cache
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
 
 ### IntelliJ IDEA ###
 .idea
@@ -33,3 +31,4 @@ build/
 
 ### VS Code ###
 .vscode/
+/.metadata/
