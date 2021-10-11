@@ -38,7 +38,7 @@ public class MemeController {
 	}
 	
 	@GetMapping(path = "/userName/{userName}", produces = MediaType.APPLICATION_JSON_VALUE)
-	public Meme findByUserName(@PathVariable String userName) {
+	public List<Meme> findByUserName(@PathVariable String userName) {
 		return this.memeService.findByUserName(userName);
 	}
 	

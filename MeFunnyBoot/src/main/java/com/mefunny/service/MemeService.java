@@ -29,7 +29,7 @@ public class MemeService {
 		return this.memeRepository.findAll();
 	}	
 	
-	public Meme findByUserName(String userName) {
+	public List<Meme> findByUserName(String userName) {
 		return this.memeRepository.findByUserName(userName);
 	}
 	
