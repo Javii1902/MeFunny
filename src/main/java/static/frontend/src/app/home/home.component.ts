@@ -23,14 +23,14 @@ export class HomeComponent implements OnInit {
   isVisible:boolean = false;
   buttonText:string = 'Hide Dynamic Card';
   containerIsVisible:boolean;
-  hideRecipe(){
+  hideMeme(){
     this.isVisible = !this.isVisible;
     if(this.isVisible){
-      this.buttonText = 'Show Dyanmic Card';
-    } else this.buttonText = 'Hide Dyanimc Card';
+      this.buttonText = 'Show Dynamic Card';
+    } else this.buttonText = 'Hide Dynamic Card';
   }
 
-  submitRecipe(){
+  submitMeme(){
     let new_meme = new Meme(this.meme.memeID, this.meme.name, this.meme.description, this.meme.likes, this.meme.dislikes, this.meme.userName);
     this.memes.push(new_meme);
   }
