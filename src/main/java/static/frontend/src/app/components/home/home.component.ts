@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
-import { Meme } from '../models/Meme';
-import { MemeService } from '../meme.service';
+import { Meme } from '../../models/Meme';
+import { MemeService } from '../../meme.service';
+
+import { MemeComponent } from '../meme/meme.component';
 
 @Component({
   selector: 'app-home',

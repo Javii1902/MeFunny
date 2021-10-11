@@ -1,5 +1,5 @@
 import { Component, Input, EventEmitter, OnInit, Output } from '@angular/core';
-import { Meme } from '../models/Meme';
+import { Meme } from '../../models/Meme';
 
 @Component({
   selector: 'app-meme',

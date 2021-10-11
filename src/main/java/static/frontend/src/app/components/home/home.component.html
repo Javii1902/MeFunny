@@ -24,7 +24,7 @@
 -->
 
 <button (click)="showContainer()">Show Container</button>
-<div *ngIf="containerIsVisible" id="recipe_container">
+<div *ngIf="containerIsVisible" id="meme_container">
   <!--In order to pass state down to our child component, we use this property binding syntax. The property called "card" exists on the child component because we we created it. Now we just assign to the value of the loop variable.
   
   Note also that we are passing state from the child to the parent component using an event emitter. The $event syntax allows us to pass the emitted value to a function that exists on our HomeComponent.-->
@@ -45,7 +45,7 @@
 -->
 </div>
 
-<h2>Modify Recipe</h2>
+<h2>Modify Meme</h2>
 <div id="submission">
   <form id="only_form">
       <!--You'll want your input elements to have a "name" attribute if you want to be able to retrieve your form data on the server side.-->
