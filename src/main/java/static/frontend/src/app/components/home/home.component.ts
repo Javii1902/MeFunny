@@ -14,7 +14,11 @@ export class HomeComponent implements OnInit {
   constructor(private memeService:MemeService) { }
 
   ngOnInit(): void {
+    //if in current user in session
+    //this.findAllMemesById();
+    //else login null
     this.findAllMemes()
+
   }
 
   memes:Meme[];
@@ -49,6 +53,21 @@ export class HomeComponent implements OnInit {
   findAllMemes(){
     // You have to subscribe to an observable to access the value that is emitted.
     this.memeService.findAllMemes().subscribe(
+      // The callback that is invoked if the http request is successful
+      (data) => {
+        this.memes = data
+        console.log(this.memes)
+      },
+      // The callback that is invoked is something goes wrong.
+      (error) => {
+        console.log("Error handler was invoked")
+      }
+    )
+  }
+
+  findAllMemesById(){
+    // You have to subscribe to an observable to access the value that is emitted.
+    this.memeService.findAllMemesById().subscribe(
       // The callback that is invoked if the http request is successful
       (data) => {
         this.memes = data

@@ -4,7 +4,8 @@
 
 export const environment = {
   production: false,
-  findAllMemes: 'http://localhost:8080/all'
+  findAllMemes: 'http://localhost:8080/all',
+  findAllMemesById: 'http://localhost:8080/all/id???????????'
   //findAllMemesOfUserId: 
 };
 
