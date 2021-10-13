@@ -13,6 +13,7 @@ import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 
+import com.mefunny.encoder.MeFunnyPasswordEncoder;
 import com.mefunny.service.MeFunnyUserDetailsService;
 
 @Configuration
@@ -38,16 +39,17 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 
     @Bean
     public DaoAuthenticationProvider authProvider() {
+    	
         DaoAuthenticationProvider authProvider = new DaoAuthenticationProvider();
         authProvider.setUserDetailsService(meFunnyUserDetailsService);
         authProvider.setPasswordEncoder(passwordEncoder());
         return authProvider;
+        
     }
     
     @Bean
-    public PasswordEncoder passwordEncoder()
-    {
-    	return new BCryptPasswordEncoder();
+    public PasswordEncoder passwordEncoder() {
+    	return new MeFunnyPasswordEncoder();
     }
     
     @Override
