@@ -53,35 +53,5 @@ public class UserController {
 	public void saveUser(@RequestBody User user) {
 		this.userService.save(user);
 	}
-	
-//	@GetMapping(path = "/exception")
-//	public void throwException() {
-//			throw new RuntimeException();	
-//	}
-//	/*
-//	 * proof for @ResponseStatus
-//	 */
-//	
-//	@GetMapping(path = "/exception-handling")
-//	public void throwBusinessException() throws BusinessException {
-//		throw new BusinessException();
-//	}
-	
-//	@GetMapping(path = "/login", produces = MediaType.APPLICATION_JSON_VALUE)
-//	private void LogIn(@PathVariable String userName){
-//		
-//		String userName = getPathVariable("userName");
-//		String password = ctx.req.getParameter("password");
-//		
-//		User user = this.userService.findByUserName(userName);
-//		
-//		 if(user.getPassword().equals(password) {
-//	            ctx.redirect("/userHome.html");
-//		 }else {
-//			 ctx.redirect("/Login.html");
-//	            }
-//	}
-	
+
 }
-	
-	
