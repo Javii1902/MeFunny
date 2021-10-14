@@ -7,6 +7,7 @@ import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -51,4 +52,11 @@ public class MemeController {
 	public Meme findById(@PathVariable int id) {
 		return this.memeService.findById(id);
 	}
+		
+		
+	@PutMapping(path = "/dislike", produces = Media.Type.APPLICATION_JSON_VALUE)
+		public void dislikeToggle(@PathVariable int id) {
+		return this.memeService.dislikeToggle(id);
+	}
+		
 }
