@@ -25,9 +25,4 @@ export class MemeService {
     return this.httpClient.get(environment.findAllMemes) as Observable<Meme[]>;
   }
 
-  findAllMemesById():Observable<Meme[]>{
-
-    return this.httpClient.get(environment.findAllMemesById) as Observable<Meme[]>;
-  }
-
 }

@@ -20,13 +20,4 @@ public interface UserRepository extends JpaRepository<User, Integer> {
 	public User findByUserId(int userId);
 	
 	
-//	public void editPassword(int userId, String newPassword)
-//	{
-//		User currentUser = findById(userId);
-//		currentUser.setPassword(newPassword);
-//		save(currentUser);
-//	}
-	
-	
-	
 }
