@@ -1,0 +1,15 @@
+nav{
+    height: 3em;
+    background-color: rgb(0, 0, 0);
+    margin-bottom: 2em;
+    border-radius: 1.01em;
+}
+
+a{
+    display: inline-block;
+    font-size: larger;
+    margin-top: 0.5em;
+    margin-right: 4em;
+    margin-left: 4em;
+    color: white;
+}

@@ -25,12 +25,11 @@ public class UserService {
 		
 		return this.userRepository.findAll();
 	}
-
+	
 	public User findByUserName(String userName) {
 		return this.userRepository.findByUserName(userName);
 	}
 	
-	/*
 	public User findByUserId(int userId) {
 		return this.userRepository.findByUserId(userId);
 	}
@@ -43,8 +42,5 @@ public class UserService {
 		this.userRepository.save(user);
 	}
 	
-	public void update(String newPassword) {
-		this.userRepository.updatePassword(newPassword);
-	}
-	*/
+	
 }

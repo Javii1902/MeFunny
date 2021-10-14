@@ -1,4 +1,4 @@
-package com.mefunny.service;
+package com.mefunny.services;
 
 import java.util.List;
 
@@ -7,8 +7,8 @@ import javax.transaction.Transactional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.mefunny.model.User;
-import com.mefunny.repository.UserRepository;
+import com.mefunny.models.User;
+import com.mefunny.repositories.UserRepository;
 
 @Transactional
 @Service("userService")
@@ -25,14 +25,9 @@ public class UserService {
 		
 		return this.userRepository.findAll();
 	}
-
+	
 	public User findByUserName(String userName) {
 		return this.userRepository.findByUserName(userName);
-	}
-	
-	/*
-	public User findByUserId(int userId) {
-		return this.userRepository.findByUserId(userId);
 	}
 	
 	public User LogIn(String userName) {
@@ -43,8 +38,5 @@ public class UserService {
 		this.userRepository.save(user);
 	}
 	
-	public void update(String newPassword) {
-		this.userRepository.updatePassword(newPassword);
-	}
-	*/
+	
 }

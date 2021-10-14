@@ -1,0 +1,64 @@
+header{
+    text-align: center;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+button{
+    margin-right: auto;
+    margin-left: auto;
+}
+
+img.icon{
+    width: 5em;
+}
+
+/*
+Here we will be styling the outer recipe_container.
+*/
+
+#meme_container{
+    margin-left: 5em;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    column-gap: 1.5em;
+}
+
+h2{
+    text-align: center;
+}
+
+#submission{
+    border-style: solid;
+    border-radius: 1em;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: gray;
+}
+
+#only_form{
+    display: grid;
+    columns: auto;
+    text-align: center;
+    padding: 1.5em;
+}
+
+input{
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 1em;
+    border-radius: 0.5em;
+    height: 1.8em;
+    width: 50%;
+}
+
+input[value$="Submit Meme"]{
+    width: 30%;
+    color: rebeccapurple;
+}
+
+footer{
+    text-align: center;
+    height: 2em;
+}

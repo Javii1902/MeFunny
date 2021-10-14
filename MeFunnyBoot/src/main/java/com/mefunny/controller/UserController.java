@@ -8,7 +8,6 @@ import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -35,13 +34,11 @@ public class UserController {
 		return this.userService.findAll();
 	}
 	
-
 	@GetMapping(path = "/userName/{userName}", produces = MediaType.APPLICATION_JSON_VALUE)
 	public User findByUserName(@PathVariable String userName) {
 		return this.userService.findByUserName(userName);
 	}
 	
-	/*
 	@GetMapping(path = "/userId/{userId}", produces = MediaType.APPLICATION_JSON_VALUE)
 	public User findByUserId(@PathVariable int userId) {
 		return this.userService.findByUserId(userId);
@@ -57,12 +54,34 @@ public class UserController {
 		this.userService.save(user);
 	}
 	
+//	@GetMapping(path = "/exception")
+//	public void throwException() {
+//			throw new RuntimeException();	
+//	}
+//	/*
+//	 * proof for @ResponseStatus
+//	 */
+//	
+//	@GetMapping(path = "/exception-handling")
+//	public void throwBusinessException() throws BusinessException {
+//		throw new BusinessException();
+//	}
 	
-	@PutMapping(path = "/update", produces = MediaType.APPLICATION_JSON_VALUE) 
-		public void updatePassword(@RequestParam String newPassword) {
-		
-		return this.userService.updatePassword(newPassword);
-	}
-	*/
-
+//	@GetMapping(path = "/login", produces = MediaType.APPLICATION_JSON_VALUE)
+//	private void LogIn(@PathVariable String userName){
+//		
+//		String userName = getPathVariable("userName");
+//		String password = ctx.req.getParameter("password");
+//		
+//		User user = this.userService.findByUserName(userName);
+//		
+//		 if(user.getPassword().equals(password) {
+//	            ctx.redirect("/userHome.html");
+//		 }else {
+//			 ctx.redirect("/Login.html");
+//	            }
+//	}
+	
 }
+	
+	

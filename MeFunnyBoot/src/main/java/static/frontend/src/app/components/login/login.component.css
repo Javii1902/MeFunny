@@ -1,0 +1,27 @@
+#submission{
+    border-style: solid;
+    border-radius: 1em;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: gray;
+}
+
+#login_form{
+    display: grid;
+    columns: auto;
+    text-align: center;
+    padding: 1.5em;
+}
+input{
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 1em;
+    border-radius: 0.5em;
+    height: 1.8em;
+    width: 50%;
+}
+
+h2{
+    text-align: center;
+}
