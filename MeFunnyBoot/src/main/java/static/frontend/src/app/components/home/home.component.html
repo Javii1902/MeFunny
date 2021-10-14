@@ -23,8 +23,7 @@
   We can also use *ngIf. This works like an "if" statement in that *ngIf only renders an element if it is "true".
 -->
 
-<button (click)="showContainer()">Show Container</button>
-<div *ngIf="containerIsVisible" id="meme_container">
+<div  id="meme_container">
   <!--In order to pass state down to our child component, we use this property binding syntax. The property called "card" exists on the child component because we we created it. Now we just assign to the value of the loop variable.
   
   Note also that we are passing state from the child to the parent component using an event emitter. The $event syntax allows us to pass the emitted value to a function that exists on our HomeComponent.-->

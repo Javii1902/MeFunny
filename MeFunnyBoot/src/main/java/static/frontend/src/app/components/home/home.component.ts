@@ -26,7 +26,7 @@ export class HomeComponent implements OnInit {
   meme:Meme = new Meme(1, 'Enter Name', 'Enter Description', 0,0, 'enter username')
   // In order to use property binding, we bind an element attribute's value to our component state:
 
-  isVisible:boolean = false;
+  isVisible:boolean = true;
   buttonText:string = 'Hide Dynamic Card';
   containerIsVisible:boolean;
   hideMeme(){
@@ -37,7 +37,7 @@ export class HomeComponent implements OnInit {
   }
 
   submitMeme(){
-    let new_meme = new Meme(this.meme.memeID, this.meme.name, this.meme.description, this.meme.likes, this.meme.dislikes, this.meme.userName);
+    let new_meme = new Meme(this.meme.id, this.meme.name, this.meme.description, this.meme.likes, this.meme.dislikes, this.meme.userName);
     this.memes.push(new_meme);
   }
 

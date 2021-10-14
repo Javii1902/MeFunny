@@ -13,3 +13,19 @@ li{
     margin-left: auto;
     margin-right: auto;
 }
+
+#memepost{
+    border-style: solid;
+    border-radius: 1em;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: gray;
+}
+
+#memedata{
+    display: grid;
+    columns: auto;
+    text-align: center;
+    padding: 1.5em;
+}

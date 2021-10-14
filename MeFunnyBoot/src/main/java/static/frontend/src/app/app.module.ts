@@ -9,10 +9,11 @@ import { CustomPipePipe } from './custom-pipe.pipe';
 
 
 import { AppComponent } from './app.component';
-import { NavComponent } from './nav/nav/nav.component';
-import { LoginComponent } from './login/login.component';
-import { MemeComponent } from './meme/meme.component';
-import { HomeComponent } from './home/home.component';
+import { NavComponent } from './components/nav/nav/nav.component';
+import { LoginComponent } from './components/login/login.component';
+import { MemeComponent } from './components/meme/meme.component';
+import { HomeComponent } from './components/home/home.component';
+
 
 @NgModule({
   declarations: [

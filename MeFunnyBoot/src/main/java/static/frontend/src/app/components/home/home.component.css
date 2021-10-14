@@ -20,7 +20,6 @@ Here we will be styling the outer recipe_container.
 #meme_container{
     margin-left: 5em;
     display: grid;
-    grid-template-columns: 30% 30% 30%;
     column-gap: 1.5em;
 }
 

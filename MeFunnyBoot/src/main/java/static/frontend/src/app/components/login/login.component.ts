@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+import { LoginService } from '../../login.service';
 @Component({
   selector: 'app-login',
   templateUrl: './login.component.html',
@@ -7,9 +7,20 @@ import { Component, OnInit } from '@angular/core';
 })
 export class LoginComponent implements OnInit {
 
-  constructor() { }
+  loginUserData = {}
+  constructor(private loginService: LoginService) { }
 
   ngOnInit(): void {
   }
 
+  
+  loginUser() {
+    this.loginService.loginUser(this.loginUserData).subscribe(
+      (data) => console.log(data),
+      
+      (error) => {
+        console.log("Error handler was invoked")
+      }
+    )
+  }
 }

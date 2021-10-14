@@ -1,7 +1,7 @@
 export class Meme{
 
-    constructor(public memeID:number , public  name:string, public description:string, public likes:number, public dislikes:number, public userName:string){
-        this.memeID = memeID;
+    constructor(public id:number , public  name:string, public description:string, public likes:number, public dislikes:number, public userName:string){
+        this.id = id;
         this.name = name;
         this.description = description;
         this.likes = likes;
@@ -11,7 +11,7 @@ export class Meme{
     }
 
     getID():number{
-        return this.memeID;
+        return this.id;
     }
 
     getName():string{
