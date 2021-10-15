@@ -44,4 +44,8 @@ public class MemeService {
 	public void updateCaption(int id, String caption) {
 		this.memeRepository.updateCaption(id, caption);
 	}
+	
+//	public void incrementLikes(int id, int likes) {
+//		this.memeRepository.incrementLikes(id, likes);
+//	}
 }

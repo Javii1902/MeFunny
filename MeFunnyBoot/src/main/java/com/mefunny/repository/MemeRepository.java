@@ -24,4 +24,11 @@ public interface MemeRepository extends JpaRepository<Meme, Integer> {
 		Meme describeMeme = findById(id);
 		describeMeme.setCaption(caption);
 	}
+	
+//	public default void incrementLikes(int id, int likes) {
+//		Meme updatememe = findById(id);
+//		 //likes = updatememe.getLikes();
+//		updatememe.setLikes(++likes);
+//		
+//	}
 }
