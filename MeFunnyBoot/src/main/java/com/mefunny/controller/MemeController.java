@@ -11,7 +11,10 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
+
 import org.springframework.web.bind.annotation.RestController;
+
+
 
 import com.mefunny.model.Meme;
 import com.mefunny.service.MemeService;
@@ -54,5 +57,15 @@ public class MemeController {
 	public Meme findById(@PathVariable int id) {
 		return this.memeService.findById(id);
 	}
-		
+	
+	@PutMapping(path = "/caption", consumes = MediaType.APPLICATION_JSON_VALUE)
+	public void updateCaption(@RequestBody Meme meme) {
+		this.memeService.updateCaption(meme.getId(), meme.getCaption());
+	}
+	
+//	@PostMapping(path = "/like/{id}", produces = MediaType.APPLICATION_JSON_VALUE)
+//	public void incrementLikes(@RequestBody Meme meme) {
+//		 this.memeService.incrementLikes(meme.getId(), meme.getLikes());
+//	}
+	
 }

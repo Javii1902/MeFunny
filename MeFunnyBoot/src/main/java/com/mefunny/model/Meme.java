@@ -47,6 +47,10 @@ public class Meme {
 	
 	@Column(name="username")
 	private String userName;
+	
+	@Column(name="caption")
+	private String caption;
+	
 	//private variable image;
 
 	public Meme() {
@@ -97,6 +101,13 @@ public class Meme {
 	}
 	public void setUserName(String userName) {
 		this.userName = userName;
+	}
+	
+	public String getCaption() {
+		return caption;
+	}
+	public void setCaption(String caption) {
+		this.caption = caption;
 	}
 	@Override
 	public int hashCode() {

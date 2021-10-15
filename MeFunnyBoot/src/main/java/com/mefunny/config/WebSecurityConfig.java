@@ -22,6 +22,7 @@ import com.mefunny.service.MeFunnyUserDetailsService;
 public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 	@Override
 	protected void configure(HttpSecurity http) throws Exception {
+
 		http.cors().and();
 		/*http
 			.authorizeRequests()
@@ -34,6 +35,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 				.and()
 			.logout()
 				.permitAll();*/
+
 	}
 	
 	@Bean
