@@ -1,5 +1,12 @@
+
+
 <nav>
-    <!--In Angular, if you're using routing, you should use the routerLink property with anchor tags rather than the href attribute.-->
-    <a [routerLink]="['']">HOME</a>
-    <a [routerLink]="['login']">LOGIN</a>
-</nav>
+    <ul class="menuItems">
+      <li><img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/apple/285/face-with-tears-of-joy_1f602.png"></li>
+      <li><a href='#' data-item='MeFunny' [routerLink]="['']">MeFunny</a></li>
+      <li><a href='#' data-item='Login'[routerLink]="['login']">Login</a></li>
+      <li><a href='#' data-item='Projects'>Projects</a></li>
+      <li><a href='#' data-item='Blog'>Blog</a></li>
+      <li><a href='#' data-item='Contact'>Contact</a></li>
+    </ul>
+  </nav>
