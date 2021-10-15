@@ -21,14 +21,13 @@ export class HomeComponent implements OnInit {
 
   }
 
-  memes:Meme[];
+  memes!:Meme[];
 
   meme:Meme = new Meme(1, 'Enter Name', 'Enter Description', 0,0, 'enter username')
   // In order to use property binding, we bind an element attribute's value to our component state:
 
   isVisible:boolean = true;
   buttonText:string = 'Hide Dynamic Card';
-  containerIsVisible:boolean;
   hideMeme(){
     this.isVisible = !this.isVisible;
     if(this.isVisible){
@@ -41,9 +40,7 @@ export class HomeComponent implements OnInit {
     this.memes.push(new_meme);
   }
 
-  showContainer(){
-    this.containerIsVisible = !this.containerIsVisible;
-  }
+  
 
   // This receives the emitted value from the child (as specified in the view)
   receiveMemeFromChild(receivedMeme:Meme){

@@ -1,11 +1,11 @@
 <div id="memepost">
+    <span>{{meme.name | uppercase}} Details</span>
+    
     <p>meme works!</p>
-    <h2>{{meme.name | uppercase}} Details</h2>
     <!--insert url stuff here-->
+    <div class="data"><span>name: </span>{{meme.name}}</div>
     <div><span>id: </span>{{meme.id}}</div>
-    <div><span>name: </span>{{meme.name}}</div>
-    <div><span>likes: </span>{{meme.likes}}</div>
-    <div><span>dislikes: </span>{{meme.dislikes}}</div>
-    <div><span>description: </span>{{meme.description}}</div>
-    <div><span>username: </span>{{meme.userName}}</div>
+    <div class="data"><span>likes: </span>{{meme.likes}}</div>
+    <div class="data"><span>dislikes: </span>{{meme.dislikes}}</div>
+    <div class="data"><span>description: </span>{{meme.description}}</div>
 </div>

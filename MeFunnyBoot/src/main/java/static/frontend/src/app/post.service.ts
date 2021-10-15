@@ -13,9 +13,9 @@ export class LoginService {
   constructor(private httpClient:HttpClient) { }
 
 
-  loginUser(User: {}){
+  submitPost(Meme: {}){
     //let user = User.find((user: any) => user.id === query);
     //return this.http.post<any>(this.loginUrl, User);
-    return this.httpClient.post<any>(environment.login, User) as Observable<Meme[]>;
+    return this.httpClient.post<any>(environment.login, Meme) as Observable<Meme[]>;
   }
 }

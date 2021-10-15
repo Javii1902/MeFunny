@@ -227,3 +227,729 @@ Identify and stop the process that's listening on port 8080 or configure this ap
 2021-10-15 13:12:56,292 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-1] After Advice. The: findAll Controller method has been called.
 2021-10-15 13:14:22,559 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(11)-127.0.0.1] HikariPool-1 - Shutdown initiated...
 2021-10-15 13:14:22,593 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(11)-127.0.0.1] HikariPool-1 - Shutdown completed.
+2021-10-15 13:23:20,629 INFO com.mefunny.MeFunnyBootApplication [main] Starting MeFunnyBootApplication using Java 16.0.2 on DESKTOP-7DT9D6B with PID 20432 (D:\GitHubRepos\MeFunny\MeFunnyBoot\target\classes started by adyog in D:\GitHubRepos\MeFunny\MeFunnyBoot)
+2021-10-15 13:23:20,631 INFO com.mefunny.MeFunnyBootApplication [main] No active profile set, falling back to default profiles: default
+2021-10-15 13:23:21,784 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2021-10-15 13:23:21,785 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-10-15 13:23:21,876 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2021-10-15 13:23:22,088 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-10-15 13:23:22,126 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-10-15 13:23:22,226 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-10-15 13:23:22,315 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-10-15 13:23:22,540 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-10-15 13:23:22,563 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MariaDB103Dialect
+2021-10-15 13:23:23,138 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-10-15 13:23:24,196 INFO com.mefunny.MeFunnyBootApplication [main] Started MeFunnyBootApplication in 3.854 seconds (JVM running for 4.414)
+2021-10-15 13:23:26,427 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [RMI TCP Connection(3)-127.0.0.1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-10-15 13:24:20,816 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(10)-127.0.0.1] HikariPool-1 - Shutdown initiated...
+2021-10-15 13:24:20,852 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(10)-127.0.0.1] HikariPool-1 - Shutdown completed.
+2021-10-15 13:24:34,204 INFO com.mefunny.MeFunnyBootApplication [main] Starting MeFunnyBootApplication using Java 16.0.2 on DESKTOP-7DT9D6B with PID 21464 (D:\GitHubRepos\MeFunny\MeFunnyBoot\target\classes started by adyog in D:\GitHubRepos\MeFunny\MeFunnyBoot)
+2021-10-15 13:24:34,206 INFO com.mefunny.MeFunnyBootApplication [main] No active profile set, falling back to default profiles: default
+2021-10-15 13:24:35,337 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2021-10-15 13:24:35,338 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-10-15 13:24:35,415 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2021-10-15 13:24:35,632 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-10-15 13:24:35,669 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-10-15 13:24:35,764 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-10-15 13:24:35,838 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-10-15 13:24:36,087 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-10-15 13:24:36,109 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MariaDB103Dialect
+2021-10-15 13:24:36,659 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-10-15 13:24:37,800 INFO com.mefunny.MeFunnyBootApplication [main] Started MeFunnyBootApplication in 3.868 seconds (JVM running for 4.426)
+2021-10-15 13:24:38,594 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [RMI TCP Connection(3)-127.0.0.1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-10-15 13:24:44,983 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-1] Before Advice. The: findAll Controller method has been called.
+2021-10-15 13:24:45,027 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-1] Before Advice. The: findAll Service method has been called.
+2021-10-15 13:24:45,177 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-1] Return Advice. The: findAll Service method has returned.
+2021-10-15 13:24:45,178 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-1] After Advice. The: findAll Service method has been called.
+2021-10-15 13:24:45,223 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-1] Return Advice. The: findAll Controller method has returned.
+2021-10-15 13:24:45,223 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-1] After Advice. The: findAll Controller method has been called.
+2021-10-15 13:26:17,132 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-3] Before Advice. The: findAll Controller method has been called.
+2021-10-15 13:26:17,171 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-3] Before Advice. The: findAll Service method has been called.
+2021-10-15 13:26:17,190 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-3] Return Advice. The: findAll Service method has returned.
+2021-10-15 13:26:17,190 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-3] After Advice. The: findAll Service method has been called.
+2021-10-15 13:26:17,227 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-3] Return Advice. The: findAll Controller method has returned.
+2021-10-15 13:26:17,227 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-3] After Advice. The: findAll Controller method has been called.
+2021-10-15 13:26:27,615 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-4] Before Advice. The: findAll Controller method has been called.
+2021-10-15 13:26:27,653 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-4] Before Advice. The: findAll Service method has been called.
+2021-10-15 13:26:27,674 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-4] Return Advice. The: findAll Service method has returned.
+2021-10-15 13:26:27,674 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-4] After Advice. The: findAll Service method has been called.
+2021-10-15 13:26:27,712 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-4] Return Advice. The: findAll Controller method has returned.
+2021-10-15 13:26:27,713 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-4] After Advice. The: findAll Controller method has been called.
+2021-10-15 13:26:30,653 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-5] Before Advice. The: findAll Controller method has been called.
+2021-10-15 13:26:30,698 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-5] Before Advice. The: findAll Service method has been called.
+2021-10-15 13:26:30,719 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-5] Return Advice. The: findAll Service method has returned.
+2021-10-15 13:26:30,719 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-5] After Advice. The: findAll Service method has been called.
+2021-10-15 13:26:30,760 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-5] Return Advice. The: findAll Controller method has returned.
+2021-10-15 13:26:30,760 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-5] After Advice. The: findAll Controller method has been called.
+2021-10-15 13:26:36,356 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-6] Before Advice. The: findAll Controller method has been called.
+2021-10-15 13:26:36,391 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-6] Before Advice. The: findAll Service method has been called.
+2021-10-15 13:26:36,410 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-6] Return Advice. The: findAll Service method has returned.
+2021-10-15 13:26:36,410 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-6] After Advice. The: findAll Service method has been called.
+2021-10-15 13:26:36,451 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-6] Return Advice. The: findAll Controller method has returned.
+2021-10-15 13:26:36,452 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-6] After Advice. The: findAll Controller method has been called.
+2021-10-15 13:27:06,048 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-7] Before Advice. The: findAll Controller method has been called.
+2021-10-15 13:27:06,085 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-7] Before Advice. The: findAll Service method has been called.
+2021-10-15 13:27:06,103 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-7] Return Advice. The: findAll Service method has returned.
+2021-10-15 13:27:06,104 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-7] After Advice. The: findAll Service method has been called.
+2021-10-15 13:27:06,148 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-7] Return Advice. The: findAll Controller method has returned.
+2021-10-15 13:27:06,148 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-7] After Advice. The: findAll Controller method has been called.
+2021-10-15 13:27:08,226 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-8] Before Advice. The: findAll Controller method has been called.
+2021-10-15 13:27:08,265 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-8] Before Advice. The: findAll Service method has been called.
+2021-10-15 13:27:08,284 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-8] Return Advice. The: findAll Service method has returned.
+2021-10-15 13:27:08,284 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-8] After Advice. The: findAll Service method has been called.
+2021-10-15 13:27:08,325 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-8] Return Advice. The: findAll Controller method has returned.
+2021-10-15 13:27:08,325 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-8] After Advice. The: findAll Controller method has been called.
+2021-10-15 13:27:25,998 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-9] Before Advice. The: findAll Controller method has been called.
+2021-10-15 13:27:26,036 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-9] Before Advice. The: findAll Service method has been called.
+2021-10-15 13:27:26,055 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-9] Return Advice. The: findAll Service method has returned.
+2021-10-15 13:27:26,055 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-9] After Advice. The: findAll Service method has been called.
+2021-10-15 13:27:26,089 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-9] Return Advice. The: findAll Controller method has returned.
+2021-10-15 13:27:26,089 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-9] After Advice. The: findAll Controller method has been called.
+2021-10-15 13:27:29,892 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-10] Before Advice. The: findAll Controller method has been called.
+2021-10-15 13:27:29,931 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-10] Before Advice. The: findAll Service method has been called.
+2021-10-15 13:27:29,951 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-10] Return Advice. The: findAll Service method has returned.
+2021-10-15 13:27:29,951 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-10] After Advice. The: findAll Service method has been called.
+2021-10-15 13:27:29,990 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-10] Return Advice. The: findAll Controller method has returned.
+2021-10-15 13:27:29,990 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-10] After Advice. The: findAll Controller method has been called.
+2021-10-15 13:27:37,940 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-1] Before Advice. The: findAll Controller method has been called.
+2021-10-15 13:27:37,976 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-1] Before Advice. The: findAll Service method has been called.
+2021-10-15 13:27:37,999 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-1] Return Advice. The: findAll Service method has returned.
+2021-10-15 13:27:37,999 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-1] After Advice. The: findAll Service method has been called.
+2021-10-15 13:27:38,037 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-1] Return Advice. The: findAll Controller method has returned.
+2021-10-15 13:27:38,037 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-1] After Advice. The: findAll Controller method has been called.
+2021-10-15 13:27:40,129 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-2] Before Advice. The: findAll Controller method has been called.
+2021-10-15 13:27:40,168 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-2] Before Advice. The: findAll Service method has been called.
+2021-10-15 13:27:40,186 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-2] Return Advice. The: findAll Service method has returned.
+2021-10-15 13:27:40,186 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-2] After Advice. The: findAll Service method has been called.
+2021-10-15 13:27:40,224 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-2] Return Advice. The: findAll Controller method has returned.
+2021-10-15 13:27:40,224 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-2] After Advice. The: findAll Controller method has been called.
+2021-10-15 13:27:42,849 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-3] Before Advice. The: findAll Controller method has been called.
+2021-10-15 13:27:42,890 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-3] Before Advice. The: findAll Service method has been called.
+2021-10-15 13:27:42,911 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-3] Return Advice. The: findAll Service method has returned.
+2021-10-15 13:27:42,911 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-3] After Advice. The: findAll Service method has been called.
+2021-10-15 13:27:42,951 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-3] Return Advice. The: findAll Controller method has returned.
+2021-10-15 13:27:42,951 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-3] After Advice. The: findAll Controller method has been called.
+2021-10-15 13:27:44,982 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-4] Before Advice. The: findAll Controller method has been called.
+2021-10-15 13:27:45,024 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-4] Before Advice. The: findAll Service method has been called.
+2021-10-15 13:27:45,046 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-4] Return Advice. The: findAll Service method has returned.
+2021-10-15 13:27:45,046 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-4] After Advice. The: findAll Service method has been called.
+2021-10-15 13:27:45,083 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-4] Return Advice. The: findAll Controller method has returned.
+2021-10-15 13:27:45,083 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-4] After Advice. The: findAll Controller method has been called.
+2021-10-15 13:27:47,192 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-5] Before Advice. The: findAll Controller method has been called.
+2021-10-15 13:27:47,233 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-5] Before Advice. The: findAll Service method has been called.
+2021-10-15 13:27:47,253 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-5] Return Advice. The: findAll Service method has returned.
+2021-10-15 13:27:47,253 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-5] After Advice. The: findAll Service method has been called.
+2021-10-15 13:27:47,292 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-5] Return Advice. The: findAll Controller method has returned.
+2021-10-15 13:27:47,292 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-5] After Advice. The: findAll Controller method has been called.
+2021-10-15 13:27:54,810 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-6] Before Advice. The: findAll Controller method has been called.
+2021-10-15 13:27:54,851 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-6] Before Advice. The: findAll Service method has been called.
+2021-10-15 13:27:54,870 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-6] Return Advice. The: findAll Service method has returned.
+2021-10-15 13:27:54,870 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-6] After Advice. The: findAll Service method has been called.
+2021-10-15 13:27:54,909 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-6] Return Advice. The: findAll Controller method has returned.
+2021-10-15 13:27:54,910 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-6] After Advice. The: findAll Controller method has been called.
+2021-10-15 13:27:57,534 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-7] Before Advice. The: findAll Controller method has been called.
+2021-10-15 13:27:57,580 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-7] Before Advice. The: findAll Service method has been called.
+2021-10-15 13:27:57,601 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-7] Return Advice. The: findAll Service method has returned.
+2021-10-15 13:27:57,602 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-7] After Advice. The: findAll Service method has been called.
+2021-10-15 13:27:57,637 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-7] Return Advice. The: findAll Controller method has returned.
+2021-10-15 13:27:57,637 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-7] After Advice. The: findAll Controller method has been called.
+2021-10-15 13:28:12,085 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-8] Before Advice. The: findAll Controller method has been called.
+2021-10-15 13:28:12,132 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-8] Before Advice. The: findAll Service method has been called.
+2021-10-15 13:28:12,151 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-8] Return Advice. The: findAll Service method has returned.
+2021-10-15 13:28:12,152 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-8] After Advice. The: findAll Service method has been called.
+2021-10-15 13:28:12,192 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-8] Return Advice. The: findAll Controller method has returned.
+2021-10-15 13:28:12,192 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-8] After Advice. The: findAll Controller method has been called.
+2021-10-15 13:28:13,251 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-9] Before Advice. The: findAll Controller method has been called.
+2021-10-15 13:28:13,293 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-9] Before Advice. The: findAll Service method has been called.
+2021-10-15 13:28:13,313 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-9] Return Advice. The: findAll Service method has returned.
+2021-10-15 13:28:13,313 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-9] After Advice. The: findAll Service method has been called.
+2021-10-15 13:28:13,352 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-9] Return Advice. The: findAll Controller method has returned.
+2021-10-15 13:28:13,352 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-9] After Advice. The: findAll Controller method has been called.
+2021-10-15 13:29:36,823 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-1] Before Advice. The: findAll Controller method has been called.
+2021-10-15 13:29:36,861 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-1] Before Advice. The: findAll Service method has been called.
+2021-10-15 13:29:36,889 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-1] Return Advice. The: findAll Service method has returned.
+2021-10-15 13:29:36,890 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-1] After Advice. The: findAll Service method has been called.
+2021-10-15 13:29:36,929 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-1] Return Advice. The: findAll Controller method has returned.
+2021-10-15 13:29:36,929 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-1] After Advice. The: findAll Controller method has been called.
+2021-10-15 13:29:37,695 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-2] Before Advice. The: findAll Controller method has been called.
+2021-10-15 13:29:37,733 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-2] Before Advice. The: findAll Service method has been called.
+2021-10-15 13:29:37,755 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-2] Return Advice. The: findAll Service method has returned.
+2021-10-15 13:29:37,755 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-2] After Advice. The: findAll Service method has been called.
+2021-10-15 13:29:37,793 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-2] Return Advice. The: findAll Controller method has returned.
+2021-10-15 13:29:37,793 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-2] After Advice. The: findAll Controller method has been called.
+2021-10-15 13:29:46,872 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-3] Before Advice. The: findAll Controller method has been called.
+2021-10-15 13:29:46,910 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-3] Before Advice. The: findAll Service method has been called.
+2021-10-15 13:29:46,933 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-3] Return Advice. The: findAll Service method has returned.
+2021-10-15 13:29:46,933 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-3] After Advice. The: findAll Service method has been called.
+2021-10-15 13:29:46,973 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-3] Return Advice. The: findAll Controller method has returned.
+2021-10-15 13:29:46,973 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-3] After Advice. The: findAll Controller method has been called.
+2021-10-15 13:29:49,837 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-4] Before Advice. The: findAll Controller method has been called.
+2021-10-15 13:29:49,873 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-4] Before Advice. The: findAll Service method has been called.
+2021-10-15 13:29:49,894 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-4] Return Advice. The: findAll Service method has returned.
+2021-10-15 13:29:49,894 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-4] After Advice. The: findAll Service method has been called.
+2021-10-15 13:29:49,928 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-4] Return Advice. The: findAll Controller method has returned.
+2021-10-15 13:29:49,929 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-4] After Advice. The: findAll Controller method has been called.
+2021-10-15 13:29:52,055 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-5] Before Advice. The: findAll Controller method has been called.
+2021-10-15 13:29:52,089 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-5] Before Advice. The: findAll Service method has been called.
+2021-10-15 13:29:52,111 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-5] Return Advice. The: findAll Service method has returned.
+2021-10-15 13:29:52,111 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-5] After Advice. The: findAll Service method has been called.
+2021-10-15 13:29:52,151 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-5] Return Advice. The: findAll Controller method has returned.
+2021-10-15 13:29:52,152 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-5] After Advice. The: findAll Controller method has been called.
+2021-10-15 13:29:56,566 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-6] Before Advice. The: findAll Controller method has been called.
+2021-10-15 13:29:56,607 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-6] Before Advice. The: findAll Service method has been called.
+2021-10-15 13:29:56,625 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-6] Return Advice. The: findAll Service method has returned.
+2021-10-15 13:29:56,625 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-6] After Advice. The: findAll Service method has been called.
+2021-10-15 13:29:56,664 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-6] Return Advice. The: findAll Controller method has returned.
+2021-10-15 13:29:56,664 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-6] After Advice. The: findAll Controller method has been called.
+2021-10-15 13:30:04,356 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-7] Before Advice. The: findAll Controller method has been called.
+2021-10-15 13:30:04,391 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-7] Before Advice. The: findAll Service method has been called.
+2021-10-15 13:30:04,414 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-7] Return Advice. The: findAll Service method has returned.
+2021-10-15 13:30:04,414 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-7] After Advice. The: findAll Service method has been called.
+2021-10-15 13:30:04,452 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-7] Return Advice. The: findAll Controller method has returned.
+2021-10-15 13:30:04,452 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-7] After Advice. The: findAll Controller method has been called.
+2021-10-15 13:30:12,965 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-8] Before Advice. The: findAll Controller method has been called.
+2021-10-15 13:30:13,007 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-8] Before Advice. The: findAll Service method has been called.
+2021-10-15 13:30:13,026 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-8] Return Advice. The: findAll Service method has returned.
+2021-10-15 13:30:13,027 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-8] After Advice. The: findAll Service method has been called.
+2021-10-15 13:30:13,061 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-8] Return Advice. The: findAll Controller method has returned.
+2021-10-15 13:30:13,061 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-8] After Advice. The: findAll Controller method has been called.
+2021-10-15 13:30:14,673 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-9] Before Advice. The: findAll Controller method has been called.
+2021-10-15 13:30:14,711 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-9] Before Advice. The: findAll Service method has been called.
+2021-10-15 13:30:14,730 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-9] Return Advice. The: findAll Service method has returned.
+2021-10-15 13:30:14,730 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-9] After Advice. The: findAll Service method has been called.
+2021-10-15 13:30:14,768 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-9] Return Advice. The: findAll Controller method has returned.
+2021-10-15 13:30:14,768 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-9] After Advice. The: findAll Controller method has been called.
+2021-10-15 13:30:58,798 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-10] Before Advice. The: findAll Controller method has been called.
+2021-10-15 13:30:58,836 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-10] Before Advice. The: findAll Service method has been called.
+2021-10-15 13:30:58,855 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-10] Return Advice. The: findAll Service method has returned.
+2021-10-15 13:30:58,855 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-10] After Advice. The: findAll Service method has been called.
+2021-10-15 13:30:58,895 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-10] Return Advice. The: findAll Controller method has returned.
+2021-10-15 13:30:58,895 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-10] After Advice. The: findAll Controller method has been called.
+2021-10-15 13:30:59,612 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-1] Before Advice. The: findAll Controller method has been called.
+2021-10-15 13:30:59,654 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-1] Before Advice. The: findAll Service method has been called.
+2021-10-15 13:30:59,673 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-1] Return Advice. The: findAll Service method has returned.
+2021-10-15 13:30:59,673 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-1] After Advice. The: findAll Service method has been called.
+2021-10-15 13:30:59,709 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-1] Return Advice. The: findAll Controller method has returned.
+2021-10-15 13:30:59,709 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-1] After Advice. The: findAll Controller method has been called.
+2021-10-15 13:31:25,359 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-2] Before Advice. The: findAll Controller method has been called.
+2021-10-15 13:31:25,398 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-2] Before Advice. The: findAll Service method has been called.
+2021-10-15 13:31:25,416 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-2] Return Advice. The: findAll Service method has returned.
+2021-10-15 13:31:25,416 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-2] After Advice. The: findAll Service method has been called.
+2021-10-15 13:31:25,452 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-2] Return Advice. The: findAll Controller method has returned.
+2021-10-15 13:31:25,453 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-2] After Advice. The: findAll Controller method has been called.
+2021-10-15 13:31:30,460 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-3] Before Advice. The: findAll Controller method has been called.
+2021-10-15 13:31:30,499 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-3] Before Advice. The: findAll Service method has been called.
+2021-10-15 13:31:30,517 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-3] Return Advice. The: findAll Service method has returned.
+2021-10-15 13:31:30,518 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-3] After Advice. The: findAll Service method has been called.
+2021-10-15 13:31:30,554 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-3] Return Advice. The: findAll Controller method has returned.
+2021-10-15 13:31:30,554 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-3] After Advice. The: findAll Controller method has been called.
+2021-10-15 13:31:41,041 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-4] Before Advice. The: findAll Controller method has been called.
+2021-10-15 13:31:41,075 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-4] Before Advice. The: findAll Service method has been called.
+2021-10-15 13:31:41,099 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-4] Return Advice. The: findAll Service method has returned.
+2021-10-15 13:31:41,099 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-4] After Advice. The: findAll Service method has been called.
+2021-10-15 13:31:41,136 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-4] Return Advice. The: findAll Controller method has returned.
+2021-10-15 13:31:41,136 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-4] After Advice. The: findAll Controller method has been called.
+2021-10-15 13:31:49,005 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-5] Before Advice. The: findAll Controller method has been called.
+2021-10-15 13:31:49,047 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-5] Before Advice. The: findAll Service method has been called.
+2021-10-15 13:31:49,066 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-5] Return Advice. The: findAll Service method has returned.
+2021-10-15 13:31:49,066 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-5] After Advice. The: findAll Service method has been called.
+2021-10-15 13:31:49,102 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-5] Return Advice. The: findAll Controller method has returned.
+2021-10-15 13:31:49,103 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-5] After Advice. The: findAll Controller method has been called.
+2021-10-15 13:31:59,156 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-6] Before Advice. The: findAll Controller method has been called.
+2021-10-15 13:31:59,195 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-6] Before Advice. The: findAll Service method has been called.
+2021-10-15 13:31:59,219 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-6] Return Advice. The: findAll Service method has returned.
+2021-10-15 13:31:59,219 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-6] After Advice. The: findAll Service method has been called.
+2021-10-15 13:31:59,255 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-6] Return Advice. The: findAll Controller method has returned.
+2021-10-15 13:31:59,255 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-6] After Advice. The: findAll Controller method has been called.
+2021-10-15 13:32:04,362 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-7] Before Advice. The: findAll Controller method has been called.
+2021-10-15 13:32:04,403 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-7] Before Advice. The: findAll Service method has been called.
+2021-10-15 13:32:04,423 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-7] Return Advice. The: findAll Service method has returned.
+2021-10-15 13:32:04,423 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-7] After Advice. The: findAll Service method has been called.
+2021-10-15 13:32:04,464 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-7] Return Advice. The: findAll Controller method has returned.
+2021-10-15 13:32:04,464 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-7] After Advice. The: findAll Controller method has been called.
+2021-10-15 13:32:18,923 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-8] Before Advice. The: findAll Controller method has been called.
+2021-10-15 13:32:18,963 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-8] Before Advice. The: findAll Service method has been called.
+2021-10-15 13:32:18,982 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-8] Return Advice. The: findAll Service method has returned.
+2021-10-15 13:32:18,982 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-8] After Advice. The: findAll Service method has been called.
+2021-10-15 13:32:19,019 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-8] Return Advice. The: findAll Controller method has returned.
+2021-10-15 13:32:19,019 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-8] After Advice. The: findAll Controller method has been called.
+2021-10-15 13:32:21,714 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-9] Before Advice. The: findAll Controller method has been called.
+2021-10-15 13:32:21,758 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-9] Before Advice. The: findAll Service method has been called.
+2021-10-15 13:32:21,780 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-9] Return Advice. The: findAll Service method has returned.
+2021-10-15 13:32:21,781 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-9] After Advice. The: findAll Service method has been called.
+2021-10-15 13:32:21,821 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-9] Return Advice. The: findAll Controller method has returned.
+2021-10-15 13:32:21,821 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-9] After Advice. The: findAll Controller method has been called.
+2021-10-15 13:32:34,177 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-10] Before Advice. The: findAll Controller method has been called.
+2021-10-15 13:32:34,220 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-10] Before Advice. The: findAll Service method has been called.
+2021-10-15 13:32:34,241 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-10] Return Advice. The: findAll Service method has returned.
+2021-10-15 13:32:34,241 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-10] After Advice. The: findAll Service method has been called.
+2021-10-15 13:32:34,282 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-10] Return Advice. The: findAll Controller method has returned.
+2021-10-15 13:32:34,282 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-10] After Advice. The: findAll Controller method has been called.
+2021-10-15 13:32:48,700 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-1] Before Advice. The: findAll Controller method has been called.
+2021-10-15 13:32:48,734 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-1] Before Advice. The: findAll Service method has been called.
+2021-10-15 13:32:48,752 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-1] Return Advice. The: findAll Service method has returned.
+2021-10-15 13:32:48,752 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-1] After Advice. The: findAll Service method has been called.
+2021-10-15 13:32:48,793 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-1] Return Advice. The: findAll Controller method has returned.
+2021-10-15 13:32:48,793 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-1] After Advice. The: findAll Controller method has been called.
+2021-10-15 13:33:25,170 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-2] Before Advice. The: findAll Controller method has been called.
+2021-10-15 13:33:25,209 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-2] Before Advice. The: findAll Service method has been called.
+2021-10-15 13:33:25,233 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-2] Return Advice. The: findAll Service method has returned.
+2021-10-15 13:33:25,233 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-2] After Advice. The: findAll Service method has been called.
+2021-10-15 13:33:25,270 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-2] Return Advice. The: findAll Controller method has returned.
+2021-10-15 13:33:25,270 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-2] After Advice. The: findAll Controller method has been called.
+2021-10-15 13:36:38,299 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-4] Before Advice. The: findAll Controller method has been called.
+2021-10-15 13:36:38,340 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-4] Before Advice. The: findAll Service method has been called.
+2021-10-15 13:36:38,357 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-4] Return Advice. The: findAll Service method has returned.
+2021-10-15 13:36:38,358 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-4] After Advice. The: findAll Service method has been called.
+2021-10-15 13:36:38,402 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-4] Return Advice. The: findAll Controller method has returned.
+2021-10-15 13:36:38,402 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-4] After Advice. The: findAll Controller method has been called.
+2021-10-15 13:36:52,902 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-5] Before Advice. The: findAll Controller method has been called.
+2021-10-15 13:36:52,941 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-5] Before Advice. The: findAll Service method has been called.
+2021-10-15 13:36:52,961 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-5] Return Advice. The: findAll Service method has returned.
+2021-10-15 13:36:52,961 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-5] After Advice. The: findAll Service method has been called.
+2021-10-15 13:36:52,999 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-5] Return Advice. The: findAll Controller method has returned.
+2021-10-15 13:36:52,999 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-5] After Advice. The: findAll Controller method has been called.
+2021-10-15 13:37:07,395 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-6] Before Advice. The: findAll Controller method has been called.
+2021-10-15 13:37:07,431 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-6] Before Advice. The: findAll Service method has been called.
+2021-10-15 13:37:07,455 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-6] Return Advice. The: findAll Service method has returned.
+2021-10-15 13:37:07,455 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-6] After Advice. The: findAll Service method has been called.
+2021-10-15 13:37:07,495 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-6] Return Advice. The: findAll Controller method has returned.
+2021-10-15 13:37:07,495 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-6] After Advice. The: findAll Controller method has been called.
+2021-10-15 13:37:23,073 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-7] Before Advice. The: findAll Controller method has been called.
+2021-10-15 13:37:23,110 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-7] Before Advice. The: findAll Service method has been called.
+2021-10-15 13:37:23,130 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-7] Return Advice. The: findAll Service method has returned.
+2021-10-15 13:37:23,130 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-7] After Advice. The: findAll Service method has been called.
+2021-10-15 13:37:23,163 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-7] Return Advice. The: findAll Controller method has returned.
+2021-10-15 13:37:23,164 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-7] After Advice. The: findAll Controller method has been called.
+2021-10-15 13:37:52,037 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-8] Before Advice. The: findAll Controller method has been called.
+2021-10-15 13:37:52,070 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-8] Before Advice. The: findAll Service method has been called.
+2021-10-15 13:37:52,089 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-8] Return Advice. The: findAll Service method has returned.
+2021-10-15 13:37:52,089 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-8] After Advice. The: findAll Service method has been called.
+2021-10-15 13:37:52,131 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-8] Return Advice. The: findAll Controller method has returned.
+2021-10-15 13:37:52,132 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-8] After Advice. The: findAll Controller method has been called.
+2021-10-15 13:38:36,259 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-9] Before Advice. The: findAll Controller method has been called.
+2021-10-15 13:38:36,296 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-9] Before Advice. The: findAll Service method has been called.
+2021-10-15 13:38:36,316 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-9] Return Advice. The: findAll Service method has returned.
+2021-10-15 13:38:36,316 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-9] After Advice. The: findAll Service method has been called.
+2021-10-15 13:38:36,350 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-9] Return Advice. The: findAll Controller method has returned.
+2021-10-15 13:38:36,350 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-9] After Advice. The: findAll Controller method has been called.
+2021-10-15 13:39:18,532 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-10] Before Advice. The: findAll Controller method has been called.
+2021-10-15 13:39:18,571 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-10] Before Advice. The: findAll Service method has been called.
+2021-10-15 13:39:18,588 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-10] Return Advice. The: findAll Service method has returned.
+2021-10-15 13:39:18,588 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-10] After Advice. The: findAll Service method has been called.
+2021-10-15 13:39:18,623 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-10] Return Advice. The: findAll Controller method has returned.
+2021-10-15 13:39:18,623 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-10] After Advice. The: findAll Controller method has been called.
+2021-10-15 13:39:19,679 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-1] Before Advice. The: findAll Controller method has been called.
+2021-10-15 13:39:19,713 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-1] Before Advice. The: findAll Service method has been called.
+2021-10-15 13:39:19,733 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-1] Return Advice. The: findAll Service method has returned.
+2021-10-15 13:39:19,733 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-1] After Advice. The: findAll Service method has been called.
+2021-10-15 13:39:19,770 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-1] Return Advice. The: findAll Controller method has returned.
+2021-10-15 13:39:19,770 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-1] After Advice. The: findAll Controller method has been called.
+2021-10-15 13:39:50,491 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-2] Before Advice. The: findAll Controller method has been called.
+2021-10-15 13:39:50,533 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-2] Before Advice. The: findAll Service method has been called.
+2021-10-15 13:39:50,551 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-2] Return Advice. The: findAll Service method has returned.
+2021-10-15 13:39:50,551 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-2] After Advice. The: findAll Service method has been called.
+2021-10-15 13:39:50,593 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-2] Return Advice. The: findAll Controller method has returned.
+2021-10-15 13:39:50,593 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-2] After Advice. The: findAll Controller method has been called.
+2021-10-15 13:40:02,771 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-3] Before Advice. The: findAll Controller method has been called.
+2021-10-15 13:40:02,817 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-3] Before Advice. The: findAll Service method has been called.
+2021-10-15 13:40:02,838 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-3] Return Advice. The: findAll Service method has returned.
+2021-10-15 13:40:02,838 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-3] After Advice. The: findAll Service method has been called.
+2021-10-15 13:40:02,879 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-3] Return Advice. The: findAll Controller method has returned.
+2021-10-15 13:40:02,879 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-3] After Advice. The: findAll Controller method has been called.
+2021-10-15 13:40:05,242 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-4] Before Advice. The: findAll Controller method has been called.
+2021-10-15 13:40:05,280 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-4] Before Advice. The: findAll Service method has been called.
+2021-10-15 13:40:05,302 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-4] Return Advice. The: findAll Service method has returned.
+2021-10-15 13:40:05,302 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-4] After Advice. The: findAll Service method has been called.
+2021-10-15 13:40:05,338 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-4] Return Advice. The: findAll Controller method has returned.
+2021-10-15 13:40:05,339 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-4] After Advice. The: findAll Controller method has been called.
+2021-10-15 13:40:44,799 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-5] Before Advice. The: findAll Controller method has been called.
+2021-10-15 13:40:44,835 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-5] Before Advice. The: findAll Service method has been called.
+2021-10-15 13:40:44,855 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-5] Return Advice. The: findAll Service method has returned.
+2021-10-15 13:40:44,855 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-5] After Advice. The: findAll Service method has been called.
+2021-10-15 13:40:44,890 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-5] Return Advice. The: findAll Controller method has returned.
+2021-10-15 13:40:44,890 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-5] After Advice. The: findAll Controller method has been called.
+2021-10-15 13:40:53,347 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-6] Before Advice. The: findAll Controller method has been called.
+2021-10-15 13:40:53,382 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-6] Before Advice. The: findAll Service method has been called.
+2021-10-15 13:40:53,401 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-6] Return Advice. The: findAll Service method has returned.
+2021-10-15 13:40:53,402 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-6] After Advice. The: findAll Service method has been called.
+2021-10-15 13:40:53,440 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-6] Return Advice. The: findAll Controller method has returned.
+2021-10-15 13:40:53,441 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-6] After Advice. The: findAll Controller method has been called.
+2021-10-15 13:40:58,485 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-7] Before Advice. The: findAll Controller method has been called.
+2021-10-15 13:40:58,524 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-7] Before Advice. The: findAll Service method has been called.
+2021-10-15 13:40:58,541 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-7] Return Advice. The: findAll Service method has returned.
+2021-10-15 13:40:58,542 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-7] After Advice. The: findAll Service method has been called.
+2021-10-15 13:40:58,585 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-7] Return Advice. The: findAll Controller method has returned.
+2021-10-15 13:40:58,585 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-7] After Advice. The: findAll Controller method has been called.
+2021-10-15 13:42:05,381 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-9] Before Advice. The: findAll Controller method has been called.
+2021-10-15 13:42:05,423 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-9] Before Advice. The: findAll Service method has been called.
+2021-10-15 13:42:05,440 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-9] Return Advice. The: findAll Service method has returned.
+2021-10-15 13:42:05,440 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-9] After Advice. The: findAll Service method has been called.
+2021-10-15 13:42:05,482 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-9] Return Advice. The: findAll Controller method has returned.
+2021-10-15 13:42:05,482 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-9] After Advice. The: findAll Controller method has been called.
+2021-10-15 13:42:17,660 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-10] Before Advice. The: findAll Controller method has been called.
+2021-10-15 13:42:17,698 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-10] Before Advice. The: findAll Service method has been called.
+2021-10-15 13:42:17,716 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-10] Return Advice. The: findAll Service method has returned.
+2021-10-15 13:42:17,716 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-10] After Advice. The: findAll Service method has been called.
+2021-10-15 13:42:17,757 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-10] Return Advice. The: findAll Controller method has returned.
+2021-10-15 13:42:17,757 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-10] After Advice. The: findAll Controller method has been called.
+2021-10-15 13:42:22,436 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-1] Before Advice. The: findAll Controller method has been called.
+2021-10-15 13:42:22,472 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-1] Before Advice. The: findAll Service method has been called.
+2021-10-15 13:42:22,495 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-1] Return Advice. The: findAll Service method has returned.
+2021-10-15 13:42:22,495 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-1] After Advice. The: findAll Service method has been called.
+2021-10-15 13:42:22,533 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-1] Return Advice. The: findAll Controller method has returned.
+2021-10-15 13:42:22,533 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-1] After Advice. The: findAll Controller method has been called.
+2021-10-15 13:42:29,263 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-2] Before Advice. The: findAll Controller method has been called.
+2021-10-15 13:42:29,301 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-2] Before Advice. The: findAll Service method has been called.
+2021-10-15 13:42:29,322 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-2] Return Advice. The: findAll Service method has returned.
+2021-10-15 13:42:29,322 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-2] After Advice. The: findAll Service method has been called.
+2021-10-15 13:42:29,363 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-2] Return Advice. The: findAll Controller method has returned.
+2021-10-15 13:42:29,363 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-2] After Advice. The: findAll Controller method has been called.
+2021-10-15 13:42:53,008 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-3] Before Advice. The: findAll Controller method has been called.
+2021-10-15 13:42:53,046 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-3] Before Advice. The: findAll Service method has been called.
+2021-10-15 13:42:53,068 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-3] Return Advice. The: findAll Service method has returned.
+2021-10-15 13:42:53,068 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-3] After Advice. The: findAll Service method has been called.
+2021-10-15 13:42:53,105 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-3] Return Advice. The: findAll Controller method has returned.
+2021-10-15 13:42:53,105 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-3] After Advice. The: findAll Controller method has been called.
+2021-10-15 13:43:06,890 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-4] Before Advice. The: findAll Controller method has been called.
+2021-10-15 13:43:06,925 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-4] Before Advice. The: findAll Service method has been called.
+2021-10-15 13:43:06,948 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-4] Return Advice. The: findAll Service method has returned.
+2021-10-15 13:43:06,948 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-4] After Advice. The: findAll Service method has been called.
+2021-10-15 13:43:06,984 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-4] Return Advice. The: findAll Controller method has returned.
+2021-10-15 13:43:06,985 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-4] After Advice. The: findAll Controller method has been called.
+2021-10-15 13:43:27,926 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-5] Before Advice. The: findAll Controller method has been called.
+2021-10-15 13:43:27,960 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-5] Before Advice. The: findAll Service method has been called.
+2021-10-15 13:43:27,978 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-5] Return Advice. The: findAll Service method has returned.
+2021-10-15 13:43:27,978 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-5] After Advice. The: findAll Service method has been called.
+2021-10-15 13:43:28,015 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-5] Return Advice. The: findAll Controller method has returned.
+2021-10-15 13:43:28,015 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-5] After Advice. The: findAll Controller method has been called.
+2021-10-15 13:44:21,371 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-6] Before Advice. The: findAll Controller method has been called.
+2021-10-15 13:44:21,408 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-6] Before Advice. The: findAll Service method has been called.
+2021-10-15 13:44:21,428 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-6] Return Advice. The: findAll Service method has returned.
+2021-10-15 13:44:21,428 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-6] After Advice. The: findAll Service method has been called.
+2021-10-15 13:44:21,466 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-6] Return Advice. The: findAll Controller method has returned.
+2021-10-15 13:44:21,466 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-6] After Advice. The: findAll Controller method has been called.
+2021-10-15 13:44:40,438 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-7] Before Advice. The: findAll Controller method has been called.
+2021-10-15 13:44:40,476 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-7] Before Advice. The: findAll Service method has been called.
+2021-10-15 13:44:40,495 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-7] Return Advice. The: findAll Service method has returned.
+2021-10-15 13:44:40,495 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-7] After Advice. The: findAll Service method has been called.
+2021-10-15 13:44:40,537 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-7] Return Advice. The: findAll Controller method has returned.
+2021-10-15 13:44:40,537 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-7] After Advice. The: findAll Controller method has been called.
+2021-10-15 13:44:54,432 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-8] Before Advice. The: findAll Controller method has been called.
+2021-10-15 13:44:54,467 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-8] Before Advice. The: findAll Service method has been called.
+2021-10-15 13:44:54,489 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-8] Return Advice. The: findAll Service method has returned.
+2021-10-15 13:44:54,489 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-8] After Advice. The: findAll Service method has been called.
+2021-10-15 13:44:54,532 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-8] Return Advice. The: findAll Controller method has returned.
+2021-10-15 13:44:54,533 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-8] After Advice. The: findAll Controller method has been called.
+2021-10-15 13:45:18,002 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-9] Before Advice. The: findAll Controller method has been called.
+2021-10-15 13:45:18,040 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-9] Before Advice. The: findAll Service method has been called.
+2021-10-15 13:45:18,065 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-9] Return Advice. The: findAll Service method has returned.
+2021-10-15 13:45:18,065 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-9] After Advice. The: findAll Service method has been called.
+2021-10-15 13:45:18,102 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-9] Return Advice. The: findAll Controller method has returned.
+2021-10-15 13:45:18,102 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-9] After Advice. The: findAll Controller method has been called.
+2021-10-15 13:46:02,455 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-10] Before Advice. The: findAll Controller method has been called.
+2021-10-15 13:46:02,495 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-10] Before Advice. The: findAll Service method has been called.
+2021-10-15 13:46:02,515 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-10] Return Advice. The: findAll Service method has returned.
+2021-10-15 13:46:02,515 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-10] After Advice. The: findAll Service method has been called.
+2021-10-15 13:46:02,556 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-10] Return Advice. The: findAll Controller method has returned.
+2021-10-15 13:46:02,556 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-10] After Advice. The: findAll Controller method has been called.
+2021-10-15 13:46:05,808 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-1] Before Advice. The: findAll Controller method has been called.
+2021-10-15 13:46:05,850 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-1] Before Advice. The: findAll Service method has been called.
+2021-10-15 13:46:05,870 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-1] Return Advice. The: findAll Service method has returned.
+2021-10-15 13:46:05,870 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-1] After Advice. The: findAll Service method has been called.
+2021-10-15 13:46:05,905 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-1] Return Advice. The: findAll Controller method has returned.
+2021-10-15 13:46:05,906 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-1] After Advice. The: findAll Controller method has been called.
+2021-10-15 13:46:18,749 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-2] Before Advice. The: findAll Controller method has been called.
+2021-10-15 13:46:18,791 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-2] Before Advice. The: findAll Service method has been called.
+2021-10-15 13:46:18,812 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-2] Return Advice. The: findAll Service method has returned.
+2021-10-15 13:46:18,812 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-2] After Advice. The: findAll Service method has been called.
+2021-10-15 13:46:18,849 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-2] Return Advice. The: findAll Controller method has returned.
+2021-10-15 13:46:18,849 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-2] After Advice. The: findAll Controller method has been called.
+2021-10-15 13:46:39,525 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-3] Before Advice. The: findAll Controller method has been called.
+2021-10-15 13:46:39,560 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-3] Before Advice. The: findAll Service method has been called.
+2021-10-15 13:46:39,578 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-3] Return Advice. The: findAll Service method has returned.
+2021-10-15 13:46:39,578 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-3] After Advice. The: findAll Service method has been called.
+2021-10-15 13:46:39,616 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-3] Return Advice. The: findAll Controller method has returned.
+2021-10-15 13:46:39,616 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-3] After Advice. The: findAll Controller method has been called.
+2021-10-15 13:46:42,880 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-4] Before Advice. The: findAll Controller method has been called.
+2021-10-15 13:46:42,921 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-4] Before Advice. The: findAll Service method has been called.
+2021-10-15 13:46:42,939 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-4] Return Advice. The: findAll Service method has returned.
+2021-10-15 13:46:42,939 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-4] After Advice. The: findAll Service method has been called.
+2021-10-15 13:46:42,976 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-4] Return Advice. The: findAll Controller method has returned.
+2021-10-15 13:46:42,976 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-4] After Advice. The: findAll Controller method has been called.
+2021-10-15 13:46:46,239 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-5] Before Advice. The: findAll Controller method has been called.
+2021-10-15 13:46:46,278 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-5] Before Advice. The: findAll Service method has been called.
+2021-10-15 13:46:46,296 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-5] Return Advice. The: findAll Service method has returned.
+2021-10-15 13:46:46,296 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-5] After Advice. The: findAll Service method has been called.
+2021-10-15 13:46:46,330 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-5] Return Advice. The: findAll Controller method has returned.
+2021-10-15 13:46:46,330 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-5] After Advice. The: findAll Controller method has been called.
+2021-10-15 13:47:09,012 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-6] Before Advice. The: findAll Controller method has been called.
+2021-10-15 13:47:09,050 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-6] Before Advice. The: findAll Service method has been called.
+2021-10-15 13:47:09,069 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-6] Return Advice. The: findAll Service method has returned.
+2021-10-15 13:47:09,069 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-6] After Advice. The: findAll Service method has been called.
+2021-10-15 13:47:09,109 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-6] Return Advice. The: findAll Controller method has returned.
+2021-10-15 13:47:09,109 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-6] After Advice. The: findAll Controller method has been called.
+2021-10-15 13:47:11,835 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-7] Before Advice. The: findAll Controller method has been called.
+2021-10-15 13:47:11,868 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-7] Before Advice. The: findAll Service method has been called.
+2021-10-15 13:47:11,888 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-7] Return Advice. The: findAll Service method has returned.
+2021-10-15 13:47:11,888 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-7] After Advice. The: findAll Service method has been called.
+2021-10-15 13:47:11,925 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-7] Return Advice. The: findAll Controller method has returned.
+2021-10-15 13:47:11,925 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-7] After Advice. The: findAll Controller method has been called.
+2021-10-15 13:47:14,422 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-8] Before Advice. The: findAll Controller method has been called.
+2021-10-15 13:47:14,458 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-8] Before Advice. The: findAll Service method has been called.
+2021-10-15 13:47:14,478 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-8] Return Advice. The: findAll Service method has returned.
+2021-10-15 13:47:14,479 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-8] After Advice. The: findAll Service method has been called.
+2021-10-15 13:47:14,521 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-8] Return Advice. The: findAll Controller method has returned.
+2021-10-15 13:47:14,521 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-8] After Advice. The: findAll Controller method has been called.
+2021-10-15 13:50:25,042 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-10] Before Advice. The: findAll Controller method has been called.
+2021-10-15 13:50:25,079 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-10] Before Advice. The: findAll Service method has been called.
+2021-10-15 13:50:25,097 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-10] Return Advice. The: findAll Service method has returned.
+2021-10-15 13:50:25,097 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-10] After Advice. The: findAll Service method has been called.
+2021-10-15 13:50:25,138 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-10] Return Advice. The: findAll Controller method has returned.
+2021-10-15 13:50:25,138 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-10] After Advice. The: findAll Controller method has been called.
+2021-10-15 13:50:28,270 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-1] Before Advice. The: findAll Controller method has been called.
+2021-10-15 13:50:28,308 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-1] Before Advice. The: findAll Service method has been called.
+2021-10-15 13:50:28,327 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-1] Return Advice. The: findAll Service method has returned.
+2021-10-15 13:50:28,327 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-1] After Advice. The: findAll Service method has been called.
+2021-10-15 13:50:28,367 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-1] Return Advice. The: findAll Controller method has returned.
+2021-10-15 13:50:28,367 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-1] After Advice. The: findAll Controller method has been called.
+2021-10-15 13:50:48,167 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-2] Before Advice. The: findAll Controller method has been called.
+2021-10-15 13:50:48,205 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-2] Before Advice. The: findAll Service method has been called.
+2021-10-15 13:50:48,226 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-2] Return Advice. The: findAll Service method has returned.
+2021-10-15 13:50:48,226 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-2] After Advice. The: findAll Service method has been called.
+2021-10-15 13:50:48,265 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-2] Return Advice. The: findAll Controller method has returned.
+2021-10-15 13:50:48,265 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-2] After Advice. The: findAll Controller method has been called.
+2021-10-15 13:51:40,253 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-3] Before Advice. The: findAll Controller method has been called.
+2021-10-15 13:51:40,293 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-3] Before Advice. The: findAll Service method has been called.
+2021-10-15 13:51:40,311 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-3] Return Advice. The: findAll Service method has returned.
+2021-10-15 13:51:40,311 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-3] After Advice. The: findAll Service method has been called.
+2021-10-15 13:51:40,344 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-3] Return Advice. The: findAll Controller method has returned.
+2021-10-15 13:51:40,344 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-3] After Advice. The: findAll Controller method has been called.
+2021-10-15 13:51:48,685 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-4] Before Advice. The: findAll Controller method has been called.
+2021-10-15 13:51:48,719 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-4] Before Advice. The: findAll Service method has been called.
+2021-10-15 13:51:48,738 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-4] Return Advice. The: findAll Service method has returned.
+2021-10-15 13:51:48,738 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-4] After Advice. The: findAll Service method has been called.
+2021-10-15 13:51:48,777 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-4] Return Advice. The: findAll Controller method has returned.
+2021-10-15 13:51:48,777 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-4] After Advice. The: findAll Controller method has been called.
+2021-10-15 13:51:56,920 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-5] Before Advice. The: findAll Controller method has been called.
+2021-10-15 13:51:56,957 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-5] Before Advice. The: findAll Service method has been called.
+2021-10-15 13:51:56,976 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-5] Return Advice. The: findAll Service method has returned.
+2021-10-15 13:51:56,976 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-5] After Advice. The: findAll Service method has been called.
+2021-10-15 13:51:57,020 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-5] Return Advice. The: findAll Controller method has returned.
+2021-10-15 13:51:57,020 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-5] After Advice. The: findAll Controller method has been called.
+2021-10-15 13:51:58,471 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-6] Before Advice. The: findAll Controller method has been called.
+2021-10-15 13:51:58,505 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-6] Before Advice. The: findAll Service method has been called.
+2021-10-15 13:51:58,527 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-6] Return Advice. The: findAll Service method has returned.
+2021-10-15 13:51:58,527 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-6] After Advice. The: findAll Service method has been called.
+2021-10-15 13:51:58,563 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-6] Return Advice. The: findAll Controller method has returned.
+2021-10-15 13:51:58,563 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-6] After Advice. The: findAll Controller method has been called.
+2021-10-15 13:52:01,191 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-7] Before Advice. The: findAll Controller method has been called.
+2021-10-15 13:52:01,227 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-7] Before Advice. The: findAll Service method has been called.
+2021-10-15 13:52:01,244 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-7] Return Advice. The: findAll Service method has returned.
+2021-10-15 13:52:01,244 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-7] After Advice. The: findAll Service method has been called.
+2021-10-15 13:52:01,282 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-7] Return Advice. The: findAll Controller method has returned.
+2021-10-15 13:52:01,282 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-7] After Advice. The: findAll Controller method has been called.
+2021-10-15 13:52:04,809 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-8] Before Advice. The: findAll Controller method has been called.
+2021-10-15 13:52:04,845 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-8] Before Advice. The: findAll Service method has been called.
+2021-10-15 13:52:04,864 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-8] Return Advice. The: findAll Service method has returned.
+2021-10-15 13:52:04,864 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-8] After Advice. The: findAll Service method has been called.
+2021-10-15 13:52:04,902 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-8] Return Advice. The: findAll Controller method has returned.
+2021-10-15 13:52:04,902 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-8] After Advice. The: findAll Controller method has been called.
+2021-10-15 13:52:06,697 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-9] Before Advice. The: findAll Controller method has been called.
+2021-10-15 13:52:06,737 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-9] Before Advice. The: findAll Service method has been called.
+2021-10-15 13:52:06,756 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-9] Return Advice. The: findAll Service method has returned.
+2021-10-15 13:52:06,757 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-9] After Advice. The: findAll Service method has been called.
+2021-10-15 13:52:06,792 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-9] Return Advice. The: findAll Controller method has returned.
+2021-10-15 13:52:06,792 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-9] After Advice. The: findAll Controller method has been called.
+2021-10-15 13:52:55,567 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-10] Before Advice. The: findAll Controller method has been called.
+2021-10-15 13:52:55,610 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-10] Before Advice. The: findAll Service method has been called.
+2021-10-15 13:52:55,630 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-10] Return Advice. The: findAll Service method has returned.
+2021-10-15 13:52:55,630 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-10] After Advice. The: findAll Service method has been called.
+2021-10-15 13:52:55,664 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-10] Return Advice. The: findAll Controller method has returned.
+2021-10-15 13:52:55,664 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-10] After Advice. The: findAll Controller method has been called.
+2021-10-15 13:53:05,280 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-1] Before Advice. The: findAll Controller method has been called.
+2021-10-15 13:53:05,314 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-1] Before Advice. The: findAll Service method has been called.
+2021-10-15 13:53:05,333 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-1] Return Advice. The: findAll Service method has returned.
+2021-10-15 13:53:05,333 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-1] After Advice. The: findAll Service method has been called.
+2021-10-15 13:53:05,370 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-1] Return Advice. The: findAll Controller method has returned.
+2021-10-15 13:53:05,370 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-1] After Advice. The: findAll Controller method has been called.
+2021-10-15 13:53:48,625 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-2] Before Advice. The: findAll Controller method has been called.
+2021-10-15 13:53:48,665 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-2] Before Advice. The: findAll Service method has been called.
+2021-10-15 13:53:48,684 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-2] Return Advice. The: findAll Service method has returned.
+2021-10-15 13:53:48,684 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-2] After Advice. The: findAll Service method has been called.
+2021-10-15 13:53:48,726 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-2] Return Advice. The: findAll Controller method has returned.
+2021-10-15 13:53:48,726 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-2] After Advice. The: findAll Controller method has been called.
+2021-10-15 13:53:51,973 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-3] Before Advice. The: findAll Controller method has been called.
+2021-10-15 13:53:52,012 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-3] Before Advice. The: findAll Service method has been called.
+2021-10-15 13:53:52,029 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-3] Return Advice. The: findAll Service method has returned.
+2021-10-15 13:53:52,030 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-3] After Advice. The: findAll Service method has been called.
+2021-10-15 13:53:52,067 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-3] Return Advice. The: findAll Controller method has returned.
+2021-10-15 13:53:52,067 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-3] After Advice. The: findAll Controller method has been called.
+2021-10-15 13:54:08,622 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-4] Before Advice. The: findAll Controller method has been called.
+2021-10-15 13:54:08,664 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-4] Before Advice. The: findAll Service method has been called.
+2021-10-15 13:54:08,685 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-4] Return Advice. The: findAll Service method has returned.
+2021-10-15 13:54:08,685 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-4] After Advice. The: findAll Service method has been called.
+2021-10-15 13:54:08,723 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-4] Return Advice. The: findAll Controller method has returned.
+2021-10-15 13:54:08,723 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-4] After Advice. The: findAll Controller method has been called.
+2021-10-15 13:54:41,613 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-5] Before Advice. The: findAll Controller method has been called.
+2021-10-15 13:54:41,657 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-5] Before Advice. The: findAll Service method has been called.
+2021-10-15 13:54:41,679 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-5] Return Advice. The: findAll Service method has returned.
+2021-10-15 13:54:41,679 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-5] After Advice. The: findAll Service method has been called.
+2021-10-15 13:54:41,719 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-5] Return Advice. The: findAll Controller method has returned.
+2021-10-15 13:54:41,719 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-5] After Advice. The: findAll Controller method has been called.
+2021-10-15 13:56:34,909 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-7] Before Advice. The: findAll Controller method has been called.
+2021-10-15 13:56:34,957 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-7] Before Advice. The: findAll Service method has been called.
+2021-10-15 13:56:34,982 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-7] Return Advice. The: findAll Service method has returned.
+2021-10-15 13:56:34,982 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-7] After Advice. The: findAll Service method has been called.
+2021-10-15 13:56:35,024 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-7] Return Advice. The: findAll Controller method has returned.
+2021-10-15 13:56:35,025 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-7] After Advice. The: findAll Controller method has been called.
+2021-10-15 13:57:36,291 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-9] Before Advice. The: findAll Controller method has been called.
+2021-10-15 13:57:36,333 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-9] Before Advice. The: findAll Service method has been called.
+2021-10-15 13:57:36,355 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-9] Return Advice. The: findAll Service method has returned.
+2021-10-15 13:57:36,355 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-9] After Advice. The: findAll Service method has been called.
+2021-10-15 13:57:36,391 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-9] Return Advice. The: findAll Controller method has returned.
+2021-10-15 13:57:36,391 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-9] After Advice. The: findAll Controller method has been called.
+2021-10-15 14:01:13,395 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-1] Before Advice. The: findAll Controller method has been called.
+2021-10-15 14:01:13,437 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-1] Before Advice. The: findAll Service method has been called.
+2021-10-15 14:01:13,455 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-1] Return Advice. The: findAll Service method has returned.
+2021-10-15 14:01:13,455 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-1] After Advice. The: findAll Service method has been called.
+2021-10-15 14:01:13,491 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-1] Return Advice. The: findAll Controller method has returned.
+2021-10-15 14:01:13,491 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-1] After Advice. The: findAll Controller method has been called.
+2021-10-15 14:01:14,219 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-2] Before Advice. The: findAll Controller method has been called.
+2021-10-15 14:01:14,255 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-2] Before Advice. The: findAll Service method has been called.
+2021-10-15 14:01:14,277 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-2] Return Advice. The: findAll Service method has returned.
+2021-10-15 14:01:14,277 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-2] After Advice. The: findAll Service method has been called.
+2021-10-15 14:01:14,318 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-2] Return Advice. The: findAll Controller method has returned.
+2021-10-15 14:01:14,318 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-2] After Advice. The: findAll Controller method has been called.
+2021-10-15 14:01:18,529 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-3] Before Advice. The: findAll Controller method has been called.
+2021-10-15 14:01:18,569 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-3] Before Advice. The: findAll Service method has been called.
+2021-10-15 14:01:18,590 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-3] Return Advice. The: findAll Service method has returned.
+2021-10-15 14:01:18,590 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-3] After Advice. The: findAll Service method has been called.
+2021-10-15 14:01:18,629 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-3] Return Advice. The: findAll Controller method has returned.
+2021-10-15 14:01:18,629 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-3] After Advice. The: findAll Controller method has been called.
+2021-10-15 14:01:23,637 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-4] Before Advice. The: findAll Controller method has been called.
+2021-10-15 14:01:23,712 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-4] Before Advice. The: findAll Service method has been called.
+2021-10-15 14:01:23,731 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-4] Return Advice. The: findAll Service method has returned.
+2021-10-15 14:01:23,731 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-4] After Advice. The: findAll Service method has been called.
+2021-10-15 14:01:23,788 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-4] Return Advice. The: findAll Controller method has returned.
+2021-10-15 14:01:23,788 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-4] After Advice. The: findAll Controller method has been called.
+2021-10-15 14:01:31,565 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-5] Before Advice. The: findAll Controller method has been called.
+2021-10-15 14:01:31,603 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-5] Before Advice. The: findAll Service method has been called.
+2021-10-15 14:01:31,621 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-5] Return Advice. The: findAll Service method has returned.
+2021-10-15 14:01:31,621 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-5] After Advice. The: findAll Service method has been called.
+2021-10-15 14:01:31,665 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-5] Return Advice. The: findAll Controller method has returned.
+2021-10-15 14:01:31,665 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-5] After Advice. The: findAll Controller method has been called.
+2021-10-15 14:06:03,063 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-7] Before Advice. The: findAll Controller method has been called.
+2021-10-15 14:06:03,102 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-7] Before Advice. The: findAll Service method has been called.
+2021-10-15 14:06:03,123 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-7] Return Advice. The: findAll Service method has returned.
+2021-10-15 14:06:03,123 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-7] After Advice. The: findAll Service method has been called.
+2021-10-15 14:06:03,167 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-7] Return Advice. The: findAll Controller method has returned.
+2021-10-15 14:06:03,167 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-7] After Advice. The: findAll Controller method has been called.
+2021-10-15 14:06:16,180 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-8] Before Advice. The: findAll Controller method has been called.
+2021-10-15 14:06:16,220 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-8] Before Advice. The: findAll Service method has been called.
+2021-10-15 14:06:16,238 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-8] Return Advice. The: findAll Service method has returned.
+2021-10-15 14:06:16,238 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-8] After Advice. The: findAll Service method has been called.
+2021-10-15 14:06:16,272 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-8] Return Advice. The: findAll Controller method has returned.
+2021-10-15 14:06:16,272 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-8] After Advice. The: findAll Controller method has been called.
+2021-10-15 14:06:19,930 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-9] Before Advice. The: findAll Controller method has been called.
+2021-10-15 14:06:19,974 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-9] Before Advice. The: findAll Service method has been called.
+2021-10-15 14:06:19,994 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-9] Return Advice. The: findAll Service method has returned.
+2021-10-15 14:06:19,994 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-9] After Advice. The: findAll Service method has been called.
+2021-10-15 14:06:20,032 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-9] Return Advice. The: findAll Controller method has returned.
+2021-10-15 14:06:20,032 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-9] After Advice. The: findAll Controller method has been called.
+2021-10-15 14:06:36,364 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-10] Before Advice. The: findAll Controller method has been called.
+2021-10-15 14:06:36,406 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-10] Before Advice. The: findAll Service method has been called.
+2021-10-15 14:06:36,425 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-10] Return Advice. The: findAll Service method has returned.
+2021-10-15 14:06:36,425 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-10] After Advice. The: findAll Service method has been called.
+2021-10-15 14:06:36,459 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-10] Return Advice. The: findAll Controller method has returned.
+2021-10-15 14:06:36,460 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-10] After Advice. The: findAll Controller method has been called.
+2021-10-15 14:06:45,616 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-1] Before Advice. The: findAll Controller method has been called.
+2021-10-15 14:06:45,656 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-1] Before Advice. The: findAll Service method has been called.
+2021-10-15 14:06:45,674 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-1] Return Advice. The: findAll Service method has returned.
+2021-10-15 14:06:45,674 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-1] After Advice. The: findAll Service method has been called.
+2021-10-15 14:06:45,710 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-1] Return Advice. The: findAll Controller method has returned.
+2021-10-15 14:06:45,710 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-1] After Advice. The: findAll Controller method has been called.
+2021-10-15 14:06:53,616 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-2] Before Advice. The: findAll Controller method has been called.
+2021-10-15 14:06:53,659 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-2] Before Advice. The: findAll Service method has been called.
+2021-10-15 14:06:53,682 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-2] Return Advice. The: findAll Service method has returned.
+2021-10-15 14:06:53,682 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-2] After Advice. The: findAll Service method has been called.
+2021-10-15 14:06:53,717 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-2] Return Advice. The: findAll Controller method has returned.
+2021-10-15 14:06:53,717 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-2] After Advice. The: findAll Controller method has been called.
+2021-10-15 14:06:59,032 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-3] Before Advice. The: findAll Controller method has been called.
+2021-10-15 14:06:59,069 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-3] Before Advice. The: findAll Service method has been called.
+2021-10-15 14:06:59,087 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-3] Return Advice. The: findAll Service method has returned.
+2021-10-15 14:06:59,088 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-3] After Advice. The: findAll Service method has been called.
+2021-10-15 14:06:59,128 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-3] Return Advice. The: findAll Controller method has returned.
+2021-10-15 14:06:59,128 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-3] After Advice. The: findAll Controller method has been called.
+2021-10-15 14:09:18,363 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-5] Before Advice. The: findAll Controller method has been called.
+2021-10-15 14:09:18,401 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-5] Before Advice. The: findAll Service method has been called.
+2021-10-15 14:09:18,419 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-5] Return Advice. The: findAll Service method has returned.
+2021-10-15 14:09:18,419 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-5] After Advice. The: findAll Service method has been called.
+2021-10-15 14:09:18,456 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-5] Return Advice. The: findAll Controller method has returned.
+2021-10-15 14:09:18,456 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-5] After Advice. The: findAll Controller method has been called.
+2021-10-15 14:09:24,897 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-6] Before Advice. The: findAll Controller method has been called.
+2021-10-15 14:09:24,936 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-6] Before Advice. The: findAll Service method has been called.
+2021-10-15 14:09:24,953 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-6] Return Advice. The: findAll Service method has returned.
+2021-10-15 14:09:24,954 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-6] After Advice. The: findAll Service method has been called.
+2021-10-15 14:09:24,989 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-6] Return Advice. The: findAll Controller method has returned.
+2021-10-15 14:09:24,990 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-6] After Advice. The: findAll Controller method has been called.
+2021-10-15 14:17:20,202 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-8] Before Advice. The: findAll Controller method has been called.
+2021-10-15 14:17:20,238 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-8] Before Advice. The: findAll Service method has been called.
+2021-10-15 14:17:20,259 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-8] Return Advice. The: findAll Service method has returned.
+2021-10-15 14:17:20,259 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-8] After Advice. The: findAll Service method has been called.
+2021-10-15 14:17:20,295 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-8] Return Advice. The: findAll Controller method has returned.
+2021-10-15 14:17:20,295 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-8] After Advice. The: findAll Controller method has been called.
+2021-10-15 14:17:27,736 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-9] Before Advice. The: findAll Controller method has been called.
+2021-10-15 14:17:27,770 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-9] Before Advice. The: findAll Service method has been called.
+2021-10-15 14:17:27,790 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-9] Return Advice. The: findAll Service method has returned.
+2021-10-15 14:17:27,790 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-9] After Advice. The: findAll Service method has been called.
+2021-10-15 14:17:27,825 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-9] Return Advice. The: findAll Controller method has returned.
+2021-10-15 14:17:27,825 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-9] After Advice. The: findAll Controller method has been called.
+2021-10-15 14:21:51,547 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(68)-127.0.0.1] HikariPool-1 - Shutdown initiated...
+2021-10-15 14:21:51,581 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(68)-127.0.0.1] HikariPool-1 - Shutdown completed.
+2021-10-15 14:21:57,213 INFO com.mefunny.MeFunnyBootApplication [main] Starting MeFunnyBootApplication using Java 16.0.2 on DESKTOP-7DT9D6B with PID 19608 (D:\GitHubRepos\MeFunny\MeFunnyBoot\target\classes started by adyog in D:\GitHubRepos\MeFunny\MeFunnyBoot)
+2021-10-15 14:21:57,215 INFO com.mefunny.MeFunnyBootApplication [main] No active profile set, falling back to default profiles: default
+2021-10-15 14:21:58,375 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2021-10-15 14:21:58,375 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-10-15 14:21:58,457 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2021-10-15 14:21:58,665 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-10-15 14:21:58,703 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-10-15 14:21:58,805 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-10-15 14:21:58,881 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-10-15 14:21:59,116 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-10-15 14:21:59,138 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MariaDB103Dialect
+2021-10-15 14:21:59,696 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-10-15 14:22:00,764 INFO com.mefunny.MeFunnyBootApplication [main] Started MeFunnyBootApplication in 3.845 seconds (JVM running for 4.419)
+2021-10-15 14:22:01,851 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [RMI TCP Connection(3)-127.0.0.1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-10-15 14:29:13,101 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-5] Before Advice. The: saveMeme Controller method has been called.
+2021-10-15 14:29:13,150 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-5] Before Advice. The: save Service method has been called.
+2021-10-15 14:29:13,207 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-5] Return Advice. The: save Service method has returned.
+2021-10-15 14:29:13,207 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-5] After Advice. The: save Service method has been called.
+2021-10-15 14:29:13,287 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-5] Return Advice. The: saveMeme Controller method has returned.
+2021-10-15 14:29:13,287 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-5] After Advice. The: saveMeme Controller method has been called.
+2021-10-15 14:32:46,036 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-7] Before Advice. The: findAll Controller method has been called.
+2021-10-15 14:32:46,075 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-7] Before Advice. The: findAll Service method has been called.
+2021-10-15 14:32:46,177 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-7] Return Advice. The: findAll Service method has returned.
+2021-10-15 14:32:46,177 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-7] After Advice. The: findAll Service method has been called.
+2021-10-15 14:32:46,213 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-7] Return Advice. The: findAll Controller method has returned.
+2021-10-15 14:32:46,214 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-7] After Advice. The: findAll Controller method has been called.
+2021-10-15 14:32:55,601 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-8] Before Advice. The: findAll Controller method has been called.
+2021-10-15 14:32:55,639 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-8] Before Advice. The: findAll Service method has been called.
+2021-10-15 14:32:55,661 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-8] Return Advice. The: findAll Service method has returned.
+2021-10-15 14:32:55,661 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-8] After Advice. The: findAll Service method has been called.
+2021-10-15 14:32:55,695 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-8] Return Advice. The: findAll Controller method has returned.
+2021-10-15 14:32:55,696 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-8] After Advice. The: findAll Controller method has been called.
+2021-10-15 14:33:36,728 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-10] Before Advice. The: saveMeme Controller method has been called.
+2021-10-15 14:33:36,763 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-10] Before Advice. The: save Service method has been called.
+2021-10-15 14:33:36,781 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-10] Return Advice. The: save Service method has returned.
+2021-10-15 14:33:36,781 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-10] After Advice. The: save Service method has been called.
+2021-10-15 14:33:36,835 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-10] Return Advice. The: saveMeme Controller method has returned.
+2021-10-15 14:33:36,835 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-10] After Advice. The: saveMeme Controller method has been called.
+2021-10-15 14:33:41,078 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-1] Before Advice. The: findAll Controller method has been called.
+2021-10-15 14:33:41,112 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-1] Before Advice. The: findAll Service method has been called.
+2021-10-15 14:33:41,131 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-1] Return Advice. The: findAll Service method has returned.
+2021-10-15 14:33:41,131 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-1] After Advice. The: findAll Service method has been called.
+2021-10-15 14:33:41,170 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-1] Return Advice. The: findAll Controller method has returned.
+2021-10-15 14:33:41,171 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-1] After Advice. The: findAll Controller method has been called.
+2021-10-15 14:36:23,585 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(25)-127.0.0.1] HikariPool-1 - Shutdown initiated...
+2021-10-15 14:36:23,619 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(25)-127.0.0.1] HikariPool-1 - Shutdown completed.
