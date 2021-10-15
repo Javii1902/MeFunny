@@ -12,7 +12,7 @@ public interface MemeRepository extends JpaRepository<Meme, Integer> {
 	
 	public List<Meme> findAll();
 	
-	public <S extends Meme> S saveMeme(Meme meme);
+	public <S extends Meme> S save(Meme meme);
 	
 	public List<Meme> findByUserName(String userName);
 	

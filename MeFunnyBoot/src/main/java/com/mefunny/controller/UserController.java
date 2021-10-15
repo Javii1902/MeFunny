@@ -52,8 +52,8 @@ public class UserController {
 	}
 	
 	@PostMapping(path = "/new", consumes = MediaType.APPLICATION_JSON_VALUE)
-	public void saveUser(@RequestBody User user) {
-		this.userService.saveUser(user);
+	public void save(@RequestBody User user) {
+		this.userService.save(user);
 	}
 	
 	
