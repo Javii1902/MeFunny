@@ -30,21 +30,15 @@ public class UserService {
 		return this.userRepository.findByUserName(userName);
 	}
 	
-	/*
 	public User findByUserId(int userId) {
 		return this.userRepository.findByUserId(userId);
-	}
-	
-	public User LogIn(String userName) {
-		return this.userRepository.findByUserName(userName);
 	}
 	
 	public void save(User user) {
 		this.userRepository.save(user);
 	}
 	
-	public void update(String newPassword) {
-		this.userRepository.updatePassword(newPassword);
+	public void updatePassword(int id, String newPassword) {
+		this.userRepository.updatePassword(id, newPassword);
 	}
-	*/
 }

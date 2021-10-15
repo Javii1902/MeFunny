@@ -21,7 +21,7 @@ public class MemeService {
 		this.memeRepository = memeRepository;
 	}
 	
-	public void save (Meme meme) {
+	public void save(Meme meme) {
 		this.memeRepository.save(meme);
 	}
 			
@@ -41,4 +41,7 @@ public class MemeService {
 		return this.memeRepository.findById(id);
 	}
 
+	public void updateCaption(int id, String caption) {
+		this.memeRepository.updateCaption(id, caption);
+	}
 }
