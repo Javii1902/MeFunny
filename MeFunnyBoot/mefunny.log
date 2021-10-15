@@ -120,3 +120,110 @@ Identify and stop the process that's listening on port 8080 or configure this ap
 2021-10-15 11:15:12,452 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-6] After Advice. The: findByUserName Controller method has been called.
 2021-10-15 11:15:25,143 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(4)-127.0.0.1] HikariPool-1 - Shutdown initiated...
 2021-10-15 11:15:25,179 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(4)-127.0.0.1] HikariPool-1 - Shutdown completed.
+2021-10-15 13:02:22,378 INFO com.mefunny.MeFunnyBootApplication [main] Starting MeFunnyBootApplication using Java 16.0.2 on DESKTOP-7DT9D6B with PID 20900 (D:\GitHubRepos\MeFunny\MeFunnyBoot\target\classes started by adyog in D:\GitHubRepos\MeFunny\MeFunnyBoot)
+2021-10-15 13:02:22,380 INFO com.mefunny.MeFunnyBootApplication [main] No active profile set, falling back to default profiles: default
+2021-10-15 13:02:23,676 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2021-10-15 13:02:23,676 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-10-15 13:02:23,755 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2021-10-15 13:02:23,984 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-10-15 13:02:24,023 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-10-15 13:02:24,121 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-10-15 13:02:24,198 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-10-15 13:03:30,752 INFO com.mefunny.MeFunnyBootApplication [main] Starting MeFunnyBootApplication using Java 16.0.2 on DESKTOP-7DT9D6B with PID 18912 (D:\GitHubRepos\MeFunny\MeFunnyBoot\target\classes started by adyog in D:\GitHubRepos\MeFunny\MeFunnyBoot)
+2021-10-15 13:03:30,754 INFO com.mefunny.MeFunnyBootApplication [main] No active profile set, falling back to default profiles: default
+2021-10-15 13:03:31,924 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2021-10-15 13:03:31,924 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-10-15 13:03:32,005 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2021-10-15 13:03:32,225 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-10-15 13:03:32,263 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-10-15 13:03:32,358 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-10-15 13:03:32,434 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-10-15 13:03:32,679 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-10-15 13:03:32,702 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MariaDB103Dialect
+2021-10-15 13:03:33,269 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-10-15 13:03:34,356 INFO com.mefunny.MeFunnyBootApplication [main] Started MeFunnyBootApplication in 3.882 seconds (JVM running for 4.476)
+2021-10-15 13:03:35,187 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [RMI TCP Connection(3)-127.0.0.1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-10-15 13:03:47,769 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(9)-127.0.0.1] HikariPool-1 - Shutdown initiated...
+2021-10-15 13:03:47,802 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(9)-127.0.0.1] HikariPool-1 - Shutdown completed.
+2021-10-15 13:03:55,578 INFO com.mefunny.MeFunnyBootApplication [main] Starting MeFunnyBootApplication using Java 16.0.2 on DESKTOP-7DT9D6B with PID 20564 (D:\GitHubRepos\MeFunny\MeFunnyBoot\target\classes started by adyog in D:\GitHubRepos\MeFunny\MeFunnyBoot)
+2021-10-15 13:03:55,581 INFO com.mefunny.MeFunnyBootApplication [main] No active profile set, falling back to default profiles: default
+2021-10-15 13:03:56,736 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2021-10-15 13:03:56,736 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-10-15 13:03:56,818 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2021-10-15 13:03:57,028 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-10-15 13:03:57,067 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-10-15 13:03:57,168 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-10-15 13:03:57,246 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-10-15 13:03:57,500 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-10-15 13:03:57,523 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MariaDB103Dialect
+2021-10-15 13:03:58,099 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-10-15 13:03:59,193 INFO com.mefunny.MeFunnyBootApplication [main] Started MeFunnyBootApplication in 3.889 seconds (JVM running for 4.457)
+2021-10-15 13:04:00,233 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [RMI TCP Connection(3)-127.0.0.1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-10-15 13:04:16,372 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-1] Before Advice. The: findAll Controller method has been called.
+2021-10-15 13:04:16,418 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-1] Before Advice. The: findAll Service method has been called.
+2021-10-15 13:04:16,541 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-1] Return Advice. The: findAll Service method has returned.
+2021-10-15 13:04:16,541 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-1] After Advice. The: findAll Service method has been called.
+2021-10-15 13:04:16,587 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-1] Return Advice. The: findAll Controller method has returned.
+2021-10-15 13:04:16,587 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-1] After Advice. The: findAll Controller method has been called.
+2021-10-15 13:05:26,245 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(12)-127.0.0.1] HikariPool-1 - Shutdown initiated...
+2021-10-15 13:05:26,279 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(12)-127.0.0.1] HikariPool-1 - Shutdown completed.
+2021-10-15 13:08:27,587 INFO com.mefunny.MeFunnyBootApplication [main] Starting MeFunnyBootApplication using Java 16.0.2 on DESKTOP-7DT9D6B with PID 20584 (D:\GitHubRepos\MeFunny\MeFunnyBoot\target\classes started by adyog in D:\GitHubRepos\MeFunny\MeFunnyBoot)
+2021-10-15 13:08:27,588 INFO com.mefunny.MeFunnyBootApplication [main] No active profile set, falling back to default profiles: default
+2021-10-15 13:08:28,767 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2021-10-15 13:08:28,767 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-10-15 13:08:28,848 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2021-10-15 13:08:29,059 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-10-15 13:08:29,097 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-10-15 13:08:29,195 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-10-15 13:08:29,271 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-10-15 13:08:29,492 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-10-15 13:08:29,525 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MariaDB103Dialect
+2021-10-15 13:08:30,082 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-10-15 13:08:31,239 INFO com.mefunny.MeFunnyBootApplication [main] Started MeFunnyBootApplication in 3.928 seconds (JVM running for 4.501)
+2021-10-15 13:08:33,794 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [RMI TCP Connection(3)-127.0.0.1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-10-15 13:08:39,802 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-1] Before Advice. The: findAll Controller method has been called.
+2021-10-15 13:08:39,845 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-1] Before Advice. The: findAll Service method has been called.
+2021-10-15 13:08:39,960 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-1] Return Advice. The: findAll Service method has returned.
+2021-10-15 13:08:39,960 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-1] After Advice. The: findAll Service method has been called.
+2021-10-15 13:08:40,006 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-1] Return Advice. The: findAll Controller method has returned.
+2021-10-15 13:08:40,006 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-1] After Advice. The: findAll Controller method has been called.
+2021-10-15 13:09:25,331 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(11)-127.0.0.1] HikariPool-1 - Shutdown initiated...
+2021-10-15 13:09:25,369 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(11)-127.0.0.1] HikariPool-1 - Shutdown completed.
+2021-10-15 13:10:42,363 INFO com.mefunny.MeFunnyBootApplication [main] Starting MeFunnyBootApplication using Java 16.0.2 on DESKTOP-7DT9D6B with PID 20748 (D:\GitHubRepos\MeFunny\MeFunnyBoot\target\classes started by adyog in D:\GitHubRepos\MeFunny\MeFunnyBoot)
+2021-10-15 13:10:42,364 INFO com.mefunny.MeFunnyBootApplication [main] No active profile set, falling back to default profiles: default
+2021-10-15 13:10:43,535 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2021-10-15 13:10:43,535 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-10-15 13:10:43,616 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2021-10-15 13:10:43,828 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-10-15 13:10:43,867 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-10-15 13:10:43,965 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-10-15 13:10:44,042 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-10-15 13:10:44,276 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-10-15 13:10:44,305 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MariaDB103Dialect
+2021-10-15 13:10:44,883 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-10-15 13:10:45,988 INFO com.mefunny.MeFunnyBootApplication [main] Started MeFunnyBootApplication in 3.919 seconds (JVM running for 4.49)
+2021-10-15 13:10:46,108 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [RMI TCP Connection(3)-127.0.0.1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-10-15 13:10:56,609 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(9)-127.0.0.1] HikariPool-1 - Shutdown initiated...
+2021-10-15 13:10:56,643 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(9)-127.0.0.1] HikariPool-1 - Shutdown completed.
+2021-10-15 13:12:17,465 INFO com.mefunny.MeFunnyBootApplication [main] Starting MeFunnyBootApplication using Java 16.0.2 on DESKTOP-7DT9D6B with PID 4552 (D:\GitHubRepos\MeFunny\MeFunnyBoot\target\classes started by adyog in D:\GitHubRepos\MeFunny\MeFunnyBoot)
+2021-10-15 13:12:17,468 INFO com.mefunny.MeFunnyBootApplication [main] No active profile set, falling back to default profiles: default
+2021-10-15 13:12:18,660 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2021-10-15 13:12:18,661 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-10-15 13:12:18,739 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2021-10-15 13:12:18,949 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-10-15 13:12:18,987 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-10-15 13:12:19,084 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-10-15 13:12:19,159 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-10-15 13:12:19,393 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-10-15 13:12:19,416 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MariaDB103Dialect
+2021-10-15 13:12:19,966 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-10-15 13:12:21,053 INFO com.mefunny.MeFunnyBootApplication [main] Started MeFunnyBootApplication in 3.884 seconds (JVM running for 4.441)
+2021-10-15 13:12:21,311 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [RMI TCP Connection(3)-127.0.0.1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-10-15 13:12:56,072 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-1] Before Advice. The: findAll Controller method has been called.
+2021-10-15 13:12:56,118 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-1] Before Advice. The: findAll Service method has been called.
+2021-10-15 13:12:56,242 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-1] Return Advice. The: findAll Service method has returned.
+2021-10-15 13:12:56,242 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-1] After Advice. The: findAll Service method has been called.
+2021-10-15 13:12:56,291 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-1] Return Advice. The: findAll Controller method has returned.
+2021-10-15 13:12:56,292 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-1] After Advice. The: findAll Controller method has been called.
+2021-10-15 13:14:22,559 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(11)-127.0.0.1] HikariPool-1 - Shutdown initiated...
+2021-10-15 13:14:22,593 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(11)-127.0.0.1] HikariPool-1 - Shutdown completed.

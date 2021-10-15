@@ -16,17 +16,26 @@ a{
     color: yellow;
 }
 */
+
+* {
+  background: black;
+}
+
 nav {
-    margin: 10px;
-    background: #f9f9f9;
-    padding: 10px;
-  }
+  margin: 10px;
+  background: black;
+  padding: 10px;
+  top: 0;
+  left: 0;
+  position: sticky;
+}
   nav .menuItems {
     list-style: none;
     display: flex;
   }
   nav .menuItems li {
     margin: 15px;
+    
   }
   nav .menuItems li a {
     text-decoration: none;
@@ -36,11 +45,12 @@ nav {
     transition: all 0.5s ease-in-out;
     position: relative;
     text-transform: uppercase;
+    letter-spacing: 0.4em;
   }
   nav .menuItems li a::before {
     content: attr(data-item);
     transition: 0.5s;
-    color: goldenrod;
+    color: #ffae00;
     position: absolute;
     top: 0;
     bottom: 0;
