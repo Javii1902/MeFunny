@@ -14,7 +14,7 @@ export class MemeComponent implements OnInit {
   }
 
   @Input()
-  meme:Meme;
+  meme!: Meme
 
   @Output()
   updateMemeEvent = new EventEmitter<Meme>();

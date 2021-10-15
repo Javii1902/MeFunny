@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"path": "..\\..\\.."
+		},
+		{
+			"path": "C:\\Users\\adyog\\Desktop\\java"
+		}
+	],
+	"settings": {
+		"js/ts.implicitProjectConfig.experimentalDecorators": true,
+		"js/ts.implicitProjectConfig.strictFunctionTypes": false,
+		"liveServer.settings.multiRootWorkspaceName": "java"
+	}
+}
