@@ -120,3 +120,16 @@ Identify and stop the process that's listening on port 8080 or configure this ap
 2021-10-15 11:15:12,452 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-6] After Advice. The: findByUserName Controller method has been called.
 2021-10-15 11:15:25,143 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(4)-127.0.0.1] HikariPool-1 - Shutdown initiated...
 2021-10-15 11:15:25,179 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(4)-127.0.0.1] HikariPool-1 - Shutdown completed.
+2021-10-15 11:28:09,072 INFO com.mefunny.MeFunnyBootApplication [main] Starting MeFunnyBootApplication using Java 16.0.2 on Nidjo with PID 12340 (C:\Users\nikol\Documents\MeFunny\MeFunnyBoot\target\classes started by nikol in C:\Users\nikol\Documents\MeFunny\MeFunnyBoot)
+2021-10-15 11:28:09,073 INFO com.mefunny.MeFunnyBootApplication [main] No active profile set, falling back to default profiles: default
+2021-10-15 11:28:10,183 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2021-10-15 11:28:10,184 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-10-15 11:28:10,258 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2021-10-15 11:28:10,460 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-10-15 11:28:10,495 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-10-15 11:28:10,592 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-10-15 11:28:10,661 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-10-15 11:28:11,041 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-10-15 11:28:11,062 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MariaDB103Dialect
+2021-10-15 11:28:11,745 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-10-15 11:28:12,834 INFO com.mefunny.MeFunnyBootApplication [main] Started MeFunnyBootApplication in 4.021 seconds (JVM running for 4.496)
