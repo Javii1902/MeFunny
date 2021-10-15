@@ -1,0 +1,15 @@
+#submission{
+    border-style: solid;
+    border-radius: 1em;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: gray;
+}
+
+#only_form{
+    display: grid;
+    columns: auto;
+    text-align: center;
+    padding: 1.5em;
+}

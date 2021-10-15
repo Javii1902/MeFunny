@@ -13,6 +13,7 @@ import { NavComponent } from './components/nav/nav/nav.component';
 import { LoginComponent } from './components/login/login.component';
 import { MemeComponent } from './components/meme/meme.component';
 import { HomeComponent } from './components/home/home.component';
+import { PostComponent } from './components/post/post.component';
 
 
 @NgModule({
@@ -23,6 +24,7 @@ import { HomeComponent } from './components/home/home.component';
     MemeComponent,
     HomeComponent,
     CustomPipePipe,
+    PostComponent,
   ],
   imports: [
     BrowserModule,

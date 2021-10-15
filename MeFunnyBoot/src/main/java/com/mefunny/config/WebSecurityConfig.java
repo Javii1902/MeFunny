@@ -10,6 +10,9 @@ import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
 import org.springframework.security.crypto.password.PasswordEncoder;
+import org.springframework.web.cors.CorsConfiguration;
+import org.springframework.web.cors.CorsConfigurationSource;
+import org.springframework.web.cors.UrlBasedCorsConfigurationSource;
 
 import com.mefunny.encoder.MeFunnyPasswordEncoder;
 import com.mefunny.service.MeFunnyUserDetailsService;
@@ -19,18 +22,41 @@ import com.mefunny.service.MeFunnyUserDetailsService;
 public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 	@Override
 	protected void configure(HttpSecurity http) throws Exception {
-//		http
-//			.authorizeRequests()
-//				.antMatchers("/", "/home").permitAll()
-//				.anyRequest().authenticated()
-//				.and()
-//			.formLogin()
-//				.loginPage("/login")
-//				.permitAll()
-//				.and()
-//			.logout()
-//				.permitAll();
+
+		http.cors().and();
+		/*http
+			.authorizeRequests()
+				.antMatchers("/", "/home").permitAll()
+				.anyRequest().authenticated()
+				.and()
+			.formLogin()
+				.loginPage("/login")
+				.permitAll()
+				.and()
+			.logout()
+				.permitAll();*/
+
 	}
+	
+	@Bean
+    public CorsConfigurationSource corsConfigurationSource() {
+        final CorsConfiguration configuration = new CorsConfiguration();
+        configuration.addAllowedOrigin("*");
+        configuration.addAllowedHeader("*");
+        configuration.addAllowedMethod("GET");
+        configuration.addAllowedMethod("PUT");
+        configuration.addAllowedMethod("POST");
+        // setAllowCredentials(true) is important, otherwise:
+        // The value of the 'Access-Control-Allow-Origin' header in the response must not be the wildcard '*' when the request's credentials mode is 'include'.
+        //configuration.setAllowCredentials(true);
+        // setAllowedHeaders is important! Without it, OPTIONS preflight request
+        // will fail with 403 Invalid CORS request
+        final UrlBasedCorsConfigurationSource source = new UrlBasedCorsConfigurationSource();
+        source.registerCorsConfiguration("/**", configuration);
+        return source;
+    }
+	
+	
 	
     @Resource
     private MeFunnyUserDetailsService meFunnyUserDetailsService;
@@ -44,6 +70,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
         return authProvider;
         
     }
+    
     
     @Bean
     public PasswordEncoder passwordEncoder() {
