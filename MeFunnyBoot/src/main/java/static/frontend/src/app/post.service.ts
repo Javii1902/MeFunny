@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { HttpClient, HttpHandler} from '@angular/common/http';
 import { Observable } from 'rxjs';
-import { User } from './models/User';
+import { Meme } from './models/Meme';
 import { environment } from '../environments/environment';
 
 
@@ -16,10 +16,6 @@ export class LoginService {
   loginUser(User: {}){
     //let user = User.find((user: any) => user.id === query);
     //return this.http.post<any>(this.loginUrl, User);
-    return this.httpClient.post<any>(environment.login, User) as Observable<User[]>;
-  }
-
-  findAllMemesById(){
-
+    return this.httpClient.post<any>(environment.login, User) as Observable<Meme[]>;
   }
 }

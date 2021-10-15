@@ -17,16 +17,16 @@ a{
 }
 */
 nav {
-    margin: 25px;
+    margin: 10px;
     background: #f9f9f9;
-    padding: 16px;
+    padding: 10px;
   }
   nav .menuItems {
     list-style: none;
     display: flex;
   }
   nav .menuItems li {
-    margin: 50px;
+    margin: 15px;
   }
   nav .menuItems li a {
     text-decoration: none;

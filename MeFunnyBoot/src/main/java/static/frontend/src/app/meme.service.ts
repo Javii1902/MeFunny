@@ -30,4 +30,10 @@ export class MemeService {
     return this.httpClient.get(environment.findAllMemesById) as Observable<Meme[]>;
   }
 
+  submitPost(Meme: {}){
+    //let user = User.find((user: any) => user.id === query);
+    //return this.http.post<any>(this.loginUrl, User);
+    return this.httpClient.post<any>(environment.submitPost, Meme) as Observable<Meme[]>;
+  }
+
 }
