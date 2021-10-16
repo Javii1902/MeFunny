@@ -62,5 +62,9 @@ public class UserController {
 		
 		this.userService.updatePassword(user.getUserId(), user.getPassword());
 	}
-
+	
+	@PostMapping(path ="/login", consumes = MediaType.APPLICATION_JSON_VALUE)
+	public User findByUserNameAndPassword(@PathVariable String userName, String password) {
+		return this.userService.findByUserNameAndPassword(userName, password);
+	}
 }

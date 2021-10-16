@@ -16,7 +16,10 @@ li{
     width: 50%;
     margin-left: auto;
     margin-right: auto;
-    background-color: blak;
+    margin-top: 50px;
+    background-color: black;
+    border-color: blue;
+    border-radius: 1em;
 }
 
 #memedata{

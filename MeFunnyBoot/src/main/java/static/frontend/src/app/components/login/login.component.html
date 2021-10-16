@@ -23,14 +23,14 @@ xmlns:sec="https://www.thymeleaf.org/thymeleaf-extras-springsecurity3">
       </div>
       <h2>Enter Login:</h2>
       <div id="submission">
-        <form id="login_form" method="post" action="http://localhost:8080/login">
+        <form id="login_form" method="post" th:action="@{/login}">
           <label>Username</label>
-          <input type="text" placeholder="Username" required maxlength="20" name="username" id="user"/>
+          <input type="text" placeholder="Username" required maxlength="20" name="userName" id="user"/>
           <label>Password</label>
-          <input type="text" placeholder="Password" required name="password" id = "pass"/>
+          <input type="text" placeholder="Password" required maxlength="20" name="password" id = "pass"/>
           <input (click)="loginUser()"  type="submit" value="Login" id = "submit" required/>
-          <input  type="submit" value="Register" id = "register" required/>
-          <!--(click)="registerUser()"-->
+          <input (click)="submitUser()" type="submit" value="Register" id = "register" required/>
+          <!--"-->
         </form>
       </div>
 
