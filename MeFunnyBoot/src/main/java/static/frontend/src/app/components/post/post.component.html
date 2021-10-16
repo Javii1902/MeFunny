@@ -3,10 +3,10 @@
 <div id="submission">
   <form id="only_form">
       <!--You'll want your input elements to have a "name" attribute if you want to be able to retrieve your form data on the server side.-->
-      <input type="text" placeholder="Name" required maxlength="20" name="memename"/>
-      <input type="text" placeholder="Description" required name="memedescription"/>
-      <input type="text" placeholder="Likes" required name="memelikes"/>
-      <input type="text" placeholder="Dislikes" required name="memedislikes"/>
+      <input type="text" placeholder="Name" required maxlength="20" name="name"/>
+      <input type="text" placeholder="Description" required name="description"/>
+      <input type="text" placeholder="Likes" required name="likes"/>
+      <input type="text" placeholder="Dislikes" required name="dislikes"/>
       <input (click)="submitPost()" type="submit" value="Submit post" required/>
   </form>
 </div>

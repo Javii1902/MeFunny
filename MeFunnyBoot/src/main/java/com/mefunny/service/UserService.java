@@ -41,4 +41,8 @@ public class UserService {
 	public void updatePassword(int id, String newPassword) {
 		this.userRepository.updatePassword(id, newPassword);
 	}
+	
+	public User findByUserNameAndPassword(String userName, String password) {
+		return this.userRepository.findByUserNameAndPassword(userName, password);
+	}
 }
