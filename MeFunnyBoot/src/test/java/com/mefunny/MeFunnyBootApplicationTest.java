@@ -2,7 +2,6 @@ package com.mefunny;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-
 import java.util.Arrays;
 import java.util.List;
 
@@ -81,9 +80,9 @@ class MeFunnyBootApplicationTests {
 	public void testFindByUserId() {
 		//User user = new User();
 		
-		//Mockito.when(userService.findByUserId(Mockito.any(Integer.class))).thenReturn(new User());
-		//User user = userService.findByUserId(Mockito.any(Integer.class));
-		//assertThat(user).isNotNull();
+		Mockito.when(userService.findByUserId(Mockito.any(Integer.class))).thenReturn(new User());
+		User user = userService.findByUserId(Mockito.any(Integer.class));
+		assertThat(user).isNotNull();
 	}
 	
 	public void testFindByUserName() {
