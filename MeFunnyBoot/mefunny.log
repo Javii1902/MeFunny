@@ -120,6 +120,7 @@ Identify and stop the process that's listening on port 8080 or configure this ap
 2021-10-15 11:15:12,452 WARN com.mefunny.aspect.LoggingAspect [http-nio-8080-exec-6] After Advice. The: findByUserName Controller method has been called.
 2021-10-15 11:15:25,143 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(4)-127.0.0.1] HikariPool-1 - Shutdown initiated...
 2021-10-15 11:15:25,179 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(4)-127.0.0.1] HikariPool-1 - Shutdown completed.
+
 2021-10-15 13:02:22,378 INFO com.mefunny.MeFunnyBootApplication [main] Starting MeFunnyBootApplication using Java 16.0.2 on DESKTOP-7DT9D6B with PID 20900 (D:\GitHubRepos\MeFunny\MeFunnyBoot\target\classes started by adyog in D:\GitHubRepos\MeFunny\MeFunnyBoot)
 2021-10-15 13:02:22,380 INFO com.mefunny.MeFunnyBootApplication [main] No active profile set, falling back to default profiles: default
 2021-10-15 13:02:23,676 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
