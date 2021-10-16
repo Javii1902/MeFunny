@@ -6,7 +6,7 @@ export const environment = {
   production: false,
   findAllMemes: 'http://localhost:8080/meme/all',
   findAllMemesById: 'http://localhost:8080/all/id???????????',
-  login: "http://localhost:8080/login",
+  login: "http://localhost:8080/user/login",
   submitUser: "http://localhost:8080/user/new",
   submitPost: "http://localhost:8080/meme/new"
   //findAllMemesOfUserId: 

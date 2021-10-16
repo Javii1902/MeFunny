@@ -25,5 +25,14 @@ public interface UserRepository extends JpaRepository<User, Integer> {
 		
 		return updateuser;
 	}
+	public default User findByUserNameAndPassword(String userName, String password) {
+        User user = this.findByUserName(userName);
+        if (password == user.getPassword()) {
+            return user;
+        }else
+            return null;
+    }
+	
+	//public User findByUserNameAndPassword(String userName, String password);
 	
 }
