@@ -19,6 +19,12 @@ export class LoginService {
     return this.httpClient.post<any>(environment.login, User) as Observable<User[]>;
   }
 
+  submitUser(User: {}){
+    //let user = User.find((user: any) => user.id === query);
+    //return this.http.post<any>(this.loginUrl, User);
+    return this.httpClient.post<any>(environment.submitUser, User) as Observable<User[]>;
+  }
+
   findAllMemesById(){
 
   }
