@@ -13,7 +13,10 @@ public interface UserRepository extends JpaRepository<User, Integer> {
 	
 	public User findByUserName(String userName);
 
-	public <S extends User> S save(User user);
+	public default User saveUser(User user) {
+		
+		return save(user);
+	}
 	
 	public List<User> findAll();
 	

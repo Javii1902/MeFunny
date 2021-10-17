@@ -30,8 +30,8 @@ public class UserService {
 		return this.userRepository.findByUserName(userName);
 	}
 	
-	public void save(User user) {
-		this.userRepository.save(user);
+	public void saveUser(User user) {
+		this.userRepository.saveUser(user);
 	}
 	
 

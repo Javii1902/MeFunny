@@ -6,13 +6,17 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
 import com.mefunny.model.Meme;
+import com.mefunny.model.User;
 
 @Repository("memeRepository")
 public interface MemeRepository extends JpaRepository<Meme, Integer> {
 	
 	public List<Meme> findAll();
 	
-	public <S extends Meme> S save(Meme meme);
+	public default Meme saveMeme(Meme meme) {
+		
+		return save(meme);
+	}
 	
 	public List<Meme> findByUserName(String userName);
 	
