@@ -29,6 +29,10 @@ public class UserController {
 		this.userService = userService;
 	}
 	
+	@PostMapping(path = "/new", consumes = MediaType.APPLICATION_JSON_VALUE)
+	public void saveUser(@RequestBody User user) {
+		this.userService.save(user);
+	}
 	
 	@GetMapping(path = "/all", produces = MediaType.APPLICATION_JSON_VALUE)
 	public List<User> findAll(){
@@ -41,7 +45,7 @@ public class UserController {
 		return this.userService.findByUserName(userName);
 	}
 	
-	/*
+	
 	@GetMapping(path = "/userId/{userId}", produces = MediaType.APPLICATION_JSON_VALUE)
 	public User findByUserId(@PathVariable int userId) {
 		return this.userService.findByUserId(userId);
@@ -52,17 +56,14 @@ public class UserController {
 		return this.userService.findByUserName(userName);
 	}
 	
-	@PostMapping(path = "/new", consumes = MediaType.APPLICATION_JSON_VALUE)
-	public void saveUser(@RequestBody User user) {
-		this.userService.save(user);
-	}
 	
 	
-	@PutMapping(path = "/update", produces = MediaType.APPLICATION_JSON_VALUE) 
-		public void updatePassword(@RequestParam String newPassword) {
-		
-		return this.userService.updatePassword(newPassword);
-	}
-	*/
+	
+//	@PutMapping(path = "/update", produces = MediaType.APPLICATION_JSON_VALUE) 
+//		public void updatePassword(@RequestParam String newPassword) {
+//		
+//		return this.userService.updatePassword(newPassword);
+//	}
+	
 
 }
