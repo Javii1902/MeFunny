@@ -4,18 +4,21 @@ import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;
+import org.springframework.web.bind.annotation.CrossOrigin;
+import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.mefunny.model.Meme;
 import com.mefunny.service.MemeService;
 
-
+@CrossOrigin(origins = "*")
 @RestController("memeController")
 @RequestMapping("/meme")
 public class MemeController {
@@ -53,10 +56,22 @@ public class MemeController {
 		return this.memeService.findById(id);
 	}
 	
-	@PostMapping(path = "/like/{id}", produces = MediaType.APPLICATION_JSON_VALUE)
-	public void incrementLikes(@RequestBody Meme meme) {
-		 this.memeService.incrementLikes(meme.getId(), meme.getLikes());
+	@PostMapping(path = "/like", produces = MediaType.APPLICATION_JSON_VALUE)
+	public void incrementLikes(@RequestParam int id) {
+		 this.memeService.incrementLikes(id);
 	}
+	
+	@PostMapping(path = "/dislike", produces = MediaType.APPLICATION_JSON_VALUE)
+	public void incrementDislikes(@RequestParam int id) {
+		 this.memeService.incrementDislikes(id);
+	}	
+	
+	@DeleteMapping(path = "/delete", consumes = MediaType.APPLICATION_JSON_VALUE)
+	public void deleteMeme(@RequestParam int id) {
+		this.memeService.deleteMeme(id);
+	}
+	
+	
 	
 	@PutMapping(path = "/caption", consumes = MediaType.APPLICATION_JSON_VALUE)
 	public void updateCaption(@RequestBody Meme meme) {

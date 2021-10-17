@@ -5,6 +5,8 @@ import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;
+import org.springframework.web.bind.annotation.CrossOrigin;
+import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -17,7 +19,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.mefunny.model.User;
 import com.mefunny.service.UserService;
 
-
+@CrossOrigin(origins = "*")
 @RestController("userController")
 @RequestMapping("/user")
 public class UserController {
@@ -66,6 +68,16 @@ public class UserController {
 	public boolean login(@RequestBody User enteredUser)
 	{
 		return this.userService.login(enteredUser.getUserName(),enteredUser.getPassword());
+	}
+	
+	@PostMapping(path = "/login1", produces = MediaType.APPLICATION_JSON_VALUE)
+	public User findByUserNameAndPassword(@RequestParam String userName, String password) {
+		return this.userService.findByUserNameAndPassword(userName, password);
+	}
+	
+	@DeleteMapping(path = "/delete", consumes = MediaType.APPLICATION_JSON_VALUE)
+	public void deleteUser(@RequestParam int id) {
+		this.userService.deleteUser(id);
 	}
 
 }

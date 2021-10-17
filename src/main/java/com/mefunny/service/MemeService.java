@@ -42,11 +42,23 @@ public class MemeService {
 	}
 	
 	public void incrementLikes(int id, int likes) {
-		this.memeRepository.incrementLikes(id, likes);
+		this.memeRepository.incrementLikes(id);
 	}
 	
 	public void updateCaption(int id, String caption) {
 		this.memeRepository.updateCaption(id, caption);
+	}
+	
+	public void incrementLikes(int id) {
+		this.memeRepository.incrementLikes(id);
+	}
+	
+	public void incrementDislikes(int id) {
+		this.memeRepository.incrementDislikes(id);
+	}
+	
+	public void deleteMeme(int id) {
+		this.memeRepository.deleteById(id);
 	}
 
 }
