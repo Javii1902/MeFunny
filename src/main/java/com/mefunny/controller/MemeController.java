@@ -30,7 +30,7 @@ public class MemeController {
 	
 	@PostMapping(path = "/new", consumes = MediaType.APPLICATION_JSON_VALUE)
 	public void saveMeme(@RequestBody Meme meme) {
-		this.memeService.save(meme);
+		this.memeService.saveMeme(meme);
 	}
 	
 	@GetMapping(path = "/all", produces = MediaType.APPLICATION_JSON_VALUE)

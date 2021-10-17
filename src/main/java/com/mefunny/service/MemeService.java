@@ -21,8 +21,8 @@ public class MemeService {
 		this.memeRepository = memeRepository;
 	}
 	
-	public void save (Meme meme) {
-		this.memeRepository.save(meme);
+	public void saveMeme (Meme meme) {
+		this.memeRepository.saveMeme(meme);
 	}
 			
 	public List<Meme> findAll(){
