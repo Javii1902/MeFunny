@@ -13,11 +13,24 @@ public interface UserRepository extends JpaRepository<User, Integer> {
 	
 	public User findByUserName(String userName);
 
-	public <S extends User> S saveUser(User user);
+	public <S extends User> S save(User user);
 	
 	public List<User> findAll();
 	
 	public User findByUserId(int userId);
 	
+
+	
+//	public default User findByUserNameAndPassword(String userName, String password) {
+//        User user = findByUserName(userName);
+//        if (password == user.getPassword()) {
+//            return user;
+//        }else
+//            return null;
+//    }
+	
+	public User findByUserNameAndPassword(String userName, String password);
+	
+	public void deleteById(int id);
 	
 }

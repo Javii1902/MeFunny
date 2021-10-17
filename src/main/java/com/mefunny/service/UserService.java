@@ -39,11 +39,24 @@ public class UserService {
 		return this.userRepository.findByUserId(userId);
 	}
 	
-//	public User LogIn(String userName) {
-//		return this.userRepository.findByUserName(userName);
-//	}
+	
+	public boolean login(String enteredUsername, String enteredPassword) {
+		
+		User validUser = userRepository.findByUserName(enteredUsername);
+		
+		boolean isValid = enteredPassword.equals( validUser.getPassword() );
+		
+		return isValid; 
+	}
 	
 	
+	public User findByUserNameAndPassword(String userName, String password) {
+		return this.userRepository.findByUserNameAndPassword(userName, password);
+	}
+	
+	public void deleteUser(int id) {
+		this.userRepository.deleteById(id);
+	}
 	
 //	public void update(String newPassword) {
 //		this.userRepository.updatePassword(newPassword);

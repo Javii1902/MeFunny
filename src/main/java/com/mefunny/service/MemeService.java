@@ -10,6 +10,7 @@ import org.springframework.stereotype.Service;
 import com.mefunny.model.Meme;
 import com.mefunny.repository.MemeRepository;
 
+
 @Transactional
 @Service("memeService")
 public class MemeService {
@@ -41,8 +42,16 @@ public class MemeService {
 		return this.memeRepository.findById(id);
 	}
 	
-	public void incrementLikes(int id, int likes) {
-		this.memeRepository.incrementLikes(id, likes);
+	public void incrementLikes(int id) {
+		this.memeRepository.incrementLikes(id);
+	}
+	
+	public void incrementDislikes(int id) {
+		this.memeRepository.incrementDislikes(id);
+	}
+	
+	public void deleteMeme(int id) {
+		this.memeRepository.deleteById(id);
 	}
 
 }

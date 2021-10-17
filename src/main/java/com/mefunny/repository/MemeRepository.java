@@ -12,7 +12,7 @@ public interface MemeRepository extends JpaRepository<Meme, Integer> {
 	
 	public List<Meme> findAll();
 	
-	public <S extends Meme> S saveMeme(Meme meme);
+	public <S extends Meme> S save(Meme meme);
 	
 	public List<Meme> findByUserName(String userName);
 	
@@ -20,11 +20,22 @@ public interface MemeRepository extends JpaRepository<Meme, Integer> {
 	
 	public Meme findById(int id);
 	
-	public default void incrementLikes(int id, int likes) {
-		Meme updatememe = findById(id);
-		 //likes = updatememe.getLikes();
+	public default void incrementLikes(int id) {
+		Meme updatememe = this.findById(id);
+		int likes = updatememe.getLikes();
 		updatememe.setLikes(++likes);
 		
 	}
+	
+	public default void incrementDislikes(int id) {
+		Meme updatememe = this.findById(id);;
+		int dislikes = updatememe.getDislikes();
+		updatememe.setDislikes(++dislikes);
+		
+	}
+	
+	
+	
+	public void deleteById(int id);
 	
 }
