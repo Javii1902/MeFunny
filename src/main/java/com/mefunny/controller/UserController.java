@@ -60,13 +60,12 @@ public class UserController {
 	public void updatePassword(@RequestBody User user) {
 	
 	this.userService.updatePassword(user.getUserId(), user.getPassword());
-}
+	}
 	
-//	@PutMapping(path = "/update", produces = MediaType.APPLICATION_JSON_VALUE) 
-//		public void updatePassword(@RequestParam String newPassword) {
-//		
-//		return this.userService.updatePassword(newPassword);
-//	}
-	
+	@PostMapping(path = "/login", consumes = MediaType.APPLICATION_JSON_VALUE)
+	public void login(@RequestParam String username, String password)
+	{
+		this.userService.login(username,password);
+	}
 
 }
