@@ -52,4 +52,12 @@ public class UserService {
 		return isValid; 
 	}
 	
+	public User findByUserNameAndPassword(String userName, String password) {
+		return this.userRepository.findByUserNameAndPassword(userName, password);
+	}
+	
+	public void deleteUser(int id) {
+		this.userRepository.deleteById(id);
+	}
+	
 }
