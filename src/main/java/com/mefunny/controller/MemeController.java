@@ -57,5 +57,10 @@ public class MemeController {
 	public void incrementLikes(@RequestBody Meme meme) {
 		 this.memeService.incrementLikes(meme.getId(), meme.getLikes());
 	}
-		
+	
+	@PutMapping(path = "/caption", consumes = MediaType.APPLICATION_JSON_VALUE)
+	public void updateCaption(@RequestBody Meme meme) {
+		this.memeService.updateCaption(meme.getId(), meme.getCaption());
+	}
+	
 }

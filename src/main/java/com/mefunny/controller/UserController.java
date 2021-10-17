@@ -54,10 +54,13 @@ public class UserController {
 	@GetMapping(path = "/userNameV2", produces = MediaType.APPLICATION_JSON_VALUE)
 	public User findByUserNameV2(@RequestParam String userName) {
 		return this.userService.findByUserName(userName);
-	}
+	}	
 	
+	@PutMapping(path = "/password", produces = MediaType.APPLICATION_JSON_VALUE) 
+	public void updatePassword(@RequestBody User user) {
 	
-	
+	this.userService.updatePassword(user.getUserId(), user.getPassword());
+}
 	
 //	@PutMapping(path = "/update", produces = MediaType.APPLICATION_JSON_VALUE) 
 //		public void updatePassword(@RequestParam String newPassword) {

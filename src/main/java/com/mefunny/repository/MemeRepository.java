@@ -12,7 +12,7 @@ public interface MemeRepository extends JpaRepository<Meme, Integer> {
 	
 	public List<Meme> findAll();
 	
-	public <S extends Meme> S saveMeme(Meme meme);
+	public <S extends Meme> S save(Meme meme);
 	
 	public List<Meme> findByUserName(String userName);
 	
@@ -27,4 +27,8 @@ public interface MemeRepository extends JpaRepository<Meme, Integer> {
 		
 	}
 	
+	public default void updateCaption(int id, String caption) {
+		Meme describeMeme = findById(id);
+		describeMeme.setCaption(caption);
+	}
 }

@@ -39,6 +39,10 @@ public class UserService {
 		return this.userRepository.findByUserId(userId);
 	}
 	
+	public void updatePassword(int id, String newPassword) {
+		this.userRepository.updatePassword(id, newPassword);
+	}
+	
 //	public User LogIn(String userName) {
 //		return this.userRepository.findByUserName(userName);
 //	}
