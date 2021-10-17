@@ -26,9 +26,4 @@ public interface UserRepository extends JpaRepository<User, Integer> {
 		return updateuser;
 	}
 	
-	public default User login(String username, String password) {
-		User enteredUser = new User(-1, username, password);
-		
-		return enteredUser;
-	}
 }

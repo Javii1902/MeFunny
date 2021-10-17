@@ -63,9 +63,9 @@ public class UserController {
 	}
 	
 	@PostMapping(path = "/login", consumes = MediaType.APPLICATION_JSON_VALUE)
-	public void login(@RequestParam String username, String password)
+	public boolean login(@RequestBody User enteredUser)
 	{
-		this.userService.login(username,password);
+		return this.userService.login(enteredUser.getUserName(),enteredUser.getPassword());
 	}
 
 }

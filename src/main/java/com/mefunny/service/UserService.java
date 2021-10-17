@@ -43,11 +43,13 @@ public class UserService {
 		this.userRepository.updatePassword(id, newPassword);
 	}
 	
-	public boolean login(String username, String password) {
-		User enteredUser = userRepository.login(username,password);
-		User validUser = userRepository.findByUserName(username);
+	public boolean login(String enteredUsername, String enteredPassword) {
 		
-		return enteredUser.equals(validUser);
+		User validUser = userRepository.findByUserName(enteredUsername);
+		
+		boolean isValid = enteredPassword.equals( validUser.getPassword() );
+		
+		return isValid; 
 	}
 	
 }
