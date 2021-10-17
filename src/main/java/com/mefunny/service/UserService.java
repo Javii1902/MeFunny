@@ -31,7 +31,7 @@ public class UserService {
 	}
 	
 	public void save(User user) {
-		this.userRepository.save(user);
+		this.userRepository.save( (User) user);
 	}
 	
 
