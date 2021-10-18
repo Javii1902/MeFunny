@@ -54,23 +54,6 @@ class MeFunnyApplicationTests {
 		assertThat(memeController).isNotNull();
 	}
 	
-	
-	
-	@Test
-	public void testFindAllUsers() {
-		Mockito.when(userRepository.findAll()).thenReturn(
-				Arrays.asList(
-						new User(1,"",""),
-						new User(2,"",""),
-						new User(3,"",""),
-						new User(4,"","")						
-						)
-				);
-		
-		List<User> users = userService.findAll();
-		assertThat(users).isNotNull();
-	}
-	
 	@Test
 	public void testUserSave() {
 		//Mockito.when(userService.save(Mockito.any(User.class))).thenReturn(new User());

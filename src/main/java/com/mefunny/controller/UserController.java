@@ -59,9 +59,9 @@ public class UserController {
 	}	
 	
 	@PutMapping(path = "/password", produces = MediaType.APPLICATION_JSON_VALUE) 
-	public void updatePassword(@RequestBody User user) {
+	public String updatePassword(@RequestBody User user) {
 	
-	this.userService.updatePassword(user.getUserId(), user.getPassword());
+	return this.userService.updatePassword(user.getUserId(), user.getPassword());
 	}
 	
 	@PostMapping(path = "/login", consumes = MediaType.APPLICATION_JSON_VALUE)

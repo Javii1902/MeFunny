@@ -21,8 +21,8 @@ public class MemeService {
 		this.memeRepository = memeRepository;
 	}
 	
-	public void saveMeme (Meme meme) {
-		this.memeRepository.saveMeme(meme);
+	public Meme saveMeme (Meme meme) {
+		return this.memeRepository.saveMeme(meme);
 	}
 			
 	public List<Meme> findAll(){
@@ -45,8 +45,8 @@ public class MemeService {
 		this.memeRepository.incrementLikes(id);
 	}
 	
-	public void updateCaption(int id, String caption) {
-		this.memeRepository.updateCaption(id, caption);
+	public String updateCaption(int id, String caption) {
+		return this.memeRepository.updateCaption(id, caption);
 	}
 	
 	public void incrementLikes(int id) {

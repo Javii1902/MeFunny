@@ -22,11 +22,11 @@ public interface UserRepository extends JpaRepository<User, Integer> {
 	
 	public User findByUserId(int userId);
 	
-	public default User updatePassword(int id, String password) {
+	public default String updatePassword(int id, String password) {
 		User updateuser = findByUserId(id);
 		updateuser.setPassword(password);
 		
-		return updateuser;
+		return "Password updated.";
 	}
 	
 //	public default User findByUserNameAndPassword(String userName, String password) {
@@ -35,7 +35,7 @@ public interface UserRepository extends JpaRepository<User, Integer> {
 //      return user;
 //  }else
 //      return null;
-//}
+//  }
 
 	public User findByUserNameAndPassword(String userName, String password);
 
