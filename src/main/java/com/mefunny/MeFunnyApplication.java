@@ -22,7 +22,7 @@ public class MeFunnyApplication {
             	 registry.addMapping("/**")
             	 .allowedOrigins(*)
                  .allowedMethods("HEAD", "GET", "PUT", "POST", "DELETE", "PATCH")
-                 .allowedHeaders(*)
+                 .allowedHeaders(*);
 
             }
         };
