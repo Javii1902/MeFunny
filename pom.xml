@@ -11,6 +11,7 @@
 	<groupId>com.mefunny</groupId>
 	<artifactId>MeFunny</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<packaging>war</packaging>
 	<name>MeFunny</name>
 	<description>Project_2_JavaWithAutomation</description>
 	<properties>
