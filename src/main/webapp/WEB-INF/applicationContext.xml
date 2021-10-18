@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The root tag of this file is very fittingly "beans". That is because we define our Spring Beans
+within this file. Recall that a Spring Bean has its lifecycle managed by the IOC container. -->
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:aop="http://www.springframework.org/schema/aop"
+	xmlns:tx="http://www.springframework.org/schema/tx"
+	xmlns:mvc="http://www.springframework.org/schema/mvc"
+	xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd
+        http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc.xsd
+        http://www.springframework.org/schema/tx 
+		http://www.springframework.org/schema/tx/spring-tx.xsd 
+        http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-2.5.xsd">
+		
+	<!-- Understand that the spring-context module actually gives us the ability to modify and
+	configure our application context. For instance: -->
+	<!-- This enables support for an annotation based application context configuration. In essence,
+	it will allow me to define beans and wire them together using annotations instead of using XML
+	to do so. -->
+	<context:annotation-config/>
+	<!-- You have to tell Spring which packages it should scan for annotations. -->
+	<context:component-scan base-package="com.revature.service;com.revature.repository;com.revature.aspect;com.revature.configuration"></context:component-scan>
+
+	<aop:aspectj-autoproxy></aop:aspectj-autoproxy>
+	
+	<tx:annotation-driven/>
+	
+	<!-- If we are going to allow Spring to manage our DB transactions and data source for us,
+	we must define a few beans here: a bean representing our underlying data source, a bean
+	representing our sessionFactory, and a bean representing our transaction manager.
+	
+	As usual, please do not hardcode your credentials into any file.-->
+	
+	<bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+		<property name="driverClassName" value="org.mariadb.jdbc.Driver" />
+		<property name="url" value="#{systemEnvironment['db_url']}"/>
+		<property name="username" value="#{systemEnvironment['db_username']}"/>
+		<property name="password" value="#{systemEnvironment['db_password']}" />
+	</bean>
+	
+	<!-- So we're using Hibernate as our underlying ORM framework, BUT I don't want to be
+	framework specific here, so instead "sessionFactory" I'm going to define an "entityManagerFactory"
+	bean instead. -->
+	<bean id="entityManagerFactory" class="org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean">
+		<property name="dataSource" ref="dataSource" />
+		<property name="packagesToScan" value="com.revature.model" />
+		<property name="jpaVendorAdapter">
+			<bean class="org.springframework.orm.jpa.vendor.HibernateJpaVendorAdapter"></bean>
+		</property>
+		<property name="jpaProperties">
+			<props>
+				<prop key="hibernate.dialect">org.hibernate.dialect.MariaDBDialect</prop>
+				<prop key="hibernate.hbm2ddl.auto">update</prop>
+			</props>
+		</property>
+	</bean>
+	
+	<bean id="transactionManager" class="org.springframework.orm.jpa.JpaTransactionManager">
+		<property name="entityManagerFactory" ref="entityManagerFactory"/>
+	</bean>
+	
+    <!-- Understand that any object you would like the IOC container to manager the lifecycle of
+    can be defined as a bean. So how do you define a bean? 
+    
+    When defining a bean, it is good practice to give it a logical name that you can use to
+    reference it. You should also what the type of the bean is using the "class" attribute. Also
+    be aware of the fact that Spring Beans are by default "singletons". This means that there will
+    only be one instance of this bean created. Of course, you can change the bean scope. One other
+    option, for instance, is "prototype", which creates a new instance each time the bean is requested.-->
+   <!-- <bean name="recipeRepository" class="com.revature.repository.RecipeRepository" scope="singleton"></bean> -->
+        
+    <!-- We should not be using the getBean() to grab beans from the container. Instead, we should
+    be "wiring" our beans together. This just means that we will be creating relationships between
+    our beans.-->
+    <!-- 
+    <bean name="recipeService" class="com.revature.service.RecipeService">
+    We can explicitly wire our beans together using the "property" tag. We are telling the
+    IOC container that the recipeService has a property. The "ref" property denotes that we are
+    referencing another bean in this container.
+    <property name="recipeRepository" ref="recipeRepository"/>
+     We can also use constructor injection like so:
+    <constructor-arg index="0" ref="recipeRepository"></constructor-arg>
+    </bean> -->
+    
+    <!-- Thus far, we've done what is considered "manual bean wiring". That said, Spring also allows
+    for "autowiring". This means that you can just tell the IOC container which beans are candidates
+    for being wired in.
+    
+    As far as autowiring is concerned, there are multiple strategies. You can autowire:
+    
+    byName: Spring looks for a bean of a specific name in the IOC container and chooses a bean name
+    that matches the property name. This is the most specific way of autowiring.
+    
+    byType: Spring looks for a bean of a specific type in the IOC container. If there are multiple
+    beans of that type in the container, you should NOT choose to wire this way.
+    
+    constructor: Similar to byType, but instead Spring looks for a bean of a specific type in the IOC
+    container based on your constructor arguments.-->
+   <!--  <bean name="recipeService2" class="com.revature.service.RecipeService" autowire="byName">
+    </bean> -->
+</beans>
