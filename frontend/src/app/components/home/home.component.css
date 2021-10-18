@@ -1,0 +1,113 @@
+header{
+    text-align: center;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+button{
+    margin-right: auto;
+    margin-left: auto;
+}
+
+img.icon{
+    width: 5em;
+}
+
+/*
+Here we will be styling the outer recipe_container.
+*/
+
+
+#meme_container{
+    margin-left: 5em;
+    display: grid;
+    column-gap: 1.5em;
+}
+
+h2{
+    text-align: center;
+}
+
+#submission{
+    border-style: solid;
+    border-radius: 1em;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(49, 49, 49);
+}
+
+#only_form{
+    display: grid;
+    columns: auto;
+    text-align: center;
+    padding: 1.5em;
+}
+
+input{
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 1em;
+    border-radius: 0.5em;
+    height: 1.8em;
+    width: 50%;
+}
+
+input[value$="Submit Meme"]{
+    width: 30%;
+    color: rebeccapurple;
+}
+
+footer{
+    text-align: center;
+    height: 2em;
+}
+
+.leftsidebar{
+    background-color: rgb(58, 58, 58);
+    position: relative;
+    text-align: left;
+    font-weight: bold;
+}
+.sidebar {
+    position: fixed;
+    width: 25%;
+    height: 100vh;
+    font-size: 0.65em;
+    
+  }
+.leftsidebar ul {
+    list-style: none;
+  }
+  .leftsidebar ul li {
+    position: relative;
+    margin: 1em 0;
+  }
+  .leftsidebar ul li a {
+    line-height: 5em;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 0.4em;
+    color: rgba(255, 255, 255, 0.35);
+    display: block;
+    transition: all ease-out 300ms;
+  }
+  .leftsidebar ul li.active a {
+    color: rgb(255, 255, 255);
+  }
+  .leftsidebar ul li:not(.active)::after {
+    opacity: 0.2;
+  }
+  .leftsidebar ul li:not(.active):hover a {
+    color: rgba(255, 255, 255, 0.75);
+  }
+  .leftsidebar ul li::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 0.2em;
+    background: rgb(75, 75, 75);
+    left: 0;
+    bottom: 0;
+    background-image: linear-gradient(to right, #ffae00, #b74e91);
+  }

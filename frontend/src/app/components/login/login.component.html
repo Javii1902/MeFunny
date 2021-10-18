@@ -1,0 +1,50 @@
+<html >
+    <head>
+        <title>Login page</title>
+        <meta charset="UTF-8" />
+        <link rel="stylesheet" href="login.component.css" />
+    </head>
+    
+    
+    <body>
+      <header>
+          <div>
+            <h1 style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">Login</h1>
+          </div>
+      </header>
+      {{ currentUser | json }}
+      <h2>Enter Login:</h2>
+      <div id="submission">
+        <form id="login_form" #loginForm="ngForm">
+          <div class="form-group">
+            <label>Username</label>
+            <input type="text" [(ngModel)]="user.userName" placeholder="Username" required maxlength="20" name="userName" id="user"/>
+          </div>
+          
+          <div class="form-group">
+            <label>Password</label>
+            <input type="text" [(ngModel)]="user.password" placeholder="Password" required maxlength="20" name="password" id = "pass"/>
+          </div>
+
+          <input (click)="loginUser()"  type="submit" value="Login" id = "submit" required/>
+          <input (click)="submitUser()" type="submit" value="Register" id = "register" required/>
+          <!--"-->
+        </form>
+      </div>
+
+      
+      <style>
+          h3 {
+            color: black;
+          }
+
+          .reimbursement_div{
+              background-color: lightslategray;
+          }
+      </style>
+      <footer>
+          <h5>Copyright No One. No Rights Reserved.</h5>
+      </footer>
+    </body>
+    
+</html>

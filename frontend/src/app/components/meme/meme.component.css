@@ -1,0 +1,40 @@
+.meme_div{
+    margin-bottom: 2em;
+    padding: 0.5em;
+    text-align: center;
+    background-color: gray;
+}
+
+li{
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#memepost{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    background-color: black;
+    border-color: blue;
+    border-radius: 1em;
+}
+
+#memedata{
+    display: grid;
+    columns: auto;
+    text-align: center;
+    padding: 1.5em;
+    background-color: gray;
+
+}
+
+div{
+    color: #f9f9f9;
+    background-color: black;
+}
+span{
+    background-color: black;
+}

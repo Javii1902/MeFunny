@@ -1,0 +1,13 @@
+<p>post works!</p>
+<h2>Modify Meme</h2>
+<div id="submission">
+  <form id="only_form" #postForm="ngForm">
+      <!--You'll want your input elements to have a "name" attribute if you want to be able to retrieve your form data on the server side.-->
+      <input type="file" (change)="onFileSelected($event)">
+      <button type="button" (click)="onUpload()">Upload</button>
+
+      <input type="text" [(ngModel)]="meme.name" placeholder="Name" required maxlength="20" name="name"/>
+      <input type="text" [(ngModel)]="meme.description" placeholder="Description" required name="description"/>
+      <input (click)="submitPost()" type="submit" value="Submit post" required/>
+  </form>
+</div>

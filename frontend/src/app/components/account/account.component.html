@@ -1,0 +1,22 @@
+<p>account works!</p>
+
+<div class="sidebar">
+    <nav class="leftsidebar">
+      <ul>
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#">Featured</a></li>
+        <li><a href="#">Top Memes</a></li>
+      </ul>
+    </nav>
+  </div>
+  
+  
+  
+  <div  id="meme_container">
+    <app-meme (updateMemeEvent)="receiveMemeFromChild($event)" *ngFor="let m of memes" [meme]="m"></app-meme>
+  </div>
+  
+  <footer>
+      <h5>Copyright No One. No Rights Reserved.</h5>
+  </footer>
+  
