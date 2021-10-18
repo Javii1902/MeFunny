@@ -1,0 +1,14 @@
+{{ meme | json }}
+<div id="memepost">
+    <span>{{meme.name | uppercase}} Details</span>
+    
+    <p>meme works!</p>
+    <!--insert url stuff here-->
+    <div class="data"><span>name: </span>{{meme.name}}</div>
+    <div><span>id: </span>{{meme.id}}</div>
+    <div class="data"><span>likes: </span>{{meme.likes}}</div>
+    <div class="data"><span>dislikes: </span>{{meme.dislikes}}</div>
+    <div class="data"><span>description: </span>{{meme.description}}</div>
+    <input (click)="likeMeme()"  type="submit" value="Like" id = "submit" required/>
+    <input (click)="dislikeMeme()"  type="submit" value="Dislike" id = "submit" required/>
+</div>
