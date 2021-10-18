@@ -20,7 +20,9 @@ public class MeFunnyApplication {
             public void addCorsMappings(CorsRegistry registry) {
                 //allows C O R s mapping
             	 registry.addMapping("/**")
-                 .allowedMethods("HEAD", "GET", "PUT", "POST", "DELETE", "PATCH");
+            	 .allowedOrigins(*)
+                 .allowedMethods("HEAD", "GET", "PUT", "POST", "DELETE", "PATCH")
+                 .allowedHeaders(*)
 
             }
         };
