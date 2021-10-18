@@ -74,8 +74,8 @@ public class MemeController {
 	
 	
 	@PutMapping(path = "/caption", consumes = MediaType.APPLICATION_JSON_VALUE)
-	public void updateCaption(@RequestBody Meme meme) {
-		this.memeService.updateCaption(meme.getId(), meme.getCaption());
+	public String updateCaption(@RequestBody Meme meme) {
+		return this.memeService.updateCaption(meme.getId(), meme.getCaption());
 	}
 	
 }

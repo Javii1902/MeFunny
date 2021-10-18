@@ -16,11 +16,16 @@ import com.mefunny.service.S3Service;
 public class S3Controller {
 
 	@Autowired 
-	S3Service s3Service;
+	private S3Service s3Service;
+	
+	public S3Controller(S3Service s3Service) {
+		this.s3Service = s3Service;
+	}
 
     @PostMapping("/upload")
     public String uploadFile(@RequestParam MultipartFile upload) {
     	return this.s3Service.uploadFile(upload);
     }
 
+    
 }

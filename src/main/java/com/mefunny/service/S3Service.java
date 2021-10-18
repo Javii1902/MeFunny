@@ -41,7 +41,7 @@ public class S3Service {
 	    
 		fileObject.delete();
 
-		return "mefunny-test-bucket.s3.amazonaws.com/" + filename;
+		return "https://mefunny-test-bucket.s3.amazonaws.com/" + filename;
 	}
 	
 }

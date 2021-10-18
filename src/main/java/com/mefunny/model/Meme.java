@@ -130,8 +130,5 @@ public class Meme {
 		return "Meme [id=" + id + ", name=" + name + ", description=" + description + ", likes=" + likes + ", dislikes="
 				+ dislikes + ", userName=" + userName + ", caption=" + caption + "]";
 	}
-
-	
-	
 	
 }

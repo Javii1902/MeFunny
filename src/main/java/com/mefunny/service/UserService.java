@@ -30,8 +30,8 @@ public class UserService {
 		return this.userRepository.findByUserName(userName);
 	}
 	
-	public void saveUser(User user) {
-		this.userRepository.saveUser(user);
+	public User saveUser(User user) {
+		return this.userRepository.saveUser(user);
 	}
 	
 
@@ -39,8 +39,8 @@ public class UserService {
 		return this.userRepository.findByUserId(userId);
 	}
 	
-	public void updatePassword(int id, String newPassword) {
-		this.userRepository.updatePassword(id, newPassword);
+	public String updatePassword(int id, String newPassword) {
+		return this.userRepository.updatePassword(id, newPassword);
 	}
 	
 	public boolean login(String enteredUsername, String enteredPassword) {
