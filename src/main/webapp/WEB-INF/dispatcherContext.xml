@@ -9,7 +9,7 @@
 	<!-- Enable Spring MVC annotations -->
 	<mvc:annotation-driven></mvc:annotation-driven>
 	<context:component-scan
-		base-package="com.revature.controller"></context:component-scan>
+		base-package="com.mefunny.controller"></context:component-scan>
 
 	<!-- If you want to use the Internal Resource View Resolver for allowing 
 		Spring web mvc to resolve your views for you: -->
