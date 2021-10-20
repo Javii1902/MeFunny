@@ -30,3 +30,14 @@ To-do list:
 * Small bug of post requests not working on E3 server side, but works when running on local host
 * File Upload, URL sharing, and Comments not implemented due to time constraints and dealing with EC2-S3 connectivity issues
 * Impoved UI for better client side quality of life
+
+## Getting Started
+Navigate to your directory of choice.
+
+Clone the repository either with the below terminal command or GitHub Desktop
+
+~~~
+  git clone https://github.com/TMSAVANG/ExpenseReimbursement.git
+~~~
+
+
