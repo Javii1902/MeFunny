@@ -32,12 +32,6 @@ To-do list:
 * Impoved UI for better client side quality of life
 
 ## Getting Started
-Navigate to your directory of choice.
-
-Clone the repository either with the below terminal command or GitHub Desktop
-
-~~~
-  git clone https://github.com/TMSAVANG/ExpenseReimbursement.git
-~~~
+Navigate to http://ayogoretestbucket.s3-website.us-east-2.amazonaws.com/
 
 
